@@ -1,22 +1,90 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="/FoodieCentral/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <!-- <img src="https://media.discordapp.net/attachments/1050566682176925808/1052779088361820261/Beige_Aesthetic_Minimalist_Badge_Circle_Animated_Logo_1.gif" alt="project-logo"> -->
+            <h1>Foodie Central</h1>
+            <h2>Central Florida Locations!</h2>
+        </div>
+    </header>
+
+    <main>
+        <nav class="nav-links">
+            <div id="options" class="pure-menu pure-menu-horizontal">
+                <a href="#" class="pure-menu-heading pure-menu-link">Location</a>
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a href="#" class="pure-menu-link">Business Type</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" class="pure-menu-link">Cuisine</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <form class="pure-form ">
+                    <input type="text" class="pure-input-rounded" placeholder="Seach google..."/><button type="submit" class="pure-button" style="background-color: aqua;">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="layout">
+            <div id="main" class="pure-g">
+                <div id="menu">
+                    <div class="pure-menu pure-1-4">
+                        <a class="pure-menu-heading filtered-choices" href="#filtered-choices">Filtered Choices</a>
+            
+                        <ul class="pure-menu-list">
+                            <li class="pure-menu-item"><a href="#home" class="pure-menu-link">Style</a></li>
+                            <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>    
+                            <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
         
-        <script src="" async defer></script>
-    </body>
+                <div class="content pure-u-1-2 map">
+                    <h2 class="content-subhead ">Map</h2>
+                    <div id="map">
+                    </div>
+
+                </div>
+                <div id="user-submision" class="content pure-u-1-4">
+                    <h2>Submit your own</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div>
+            <div class="dropup">
+                <button id="customer-support" class="dropbtn" >Customer Support</button>
+                    <div class="dropup-content">
+                        <a href="tel:3215551111">Lead Frontend Engineer 📞(321)-555-1111</a>
+                        <hr class="dropdown-divider">
+                        <a href="tel:3215552222">Lead Backend Engineer 📞(321)-555-2222</a>
+                        <hr class="dropdown-divider">
+                        <a href="mailto:Afood@yahoo.com">Email 📧</a>
+                    </div>
+            </div>
+            <div class="control">
+                <i>Please leave a review on your interaction with our webpage below!</i> <br><br>
+                <textarea class="textarea" placeholder="Please leave a review..."></textarea><br>
+                <button class="button is-info" style="background-color: aqua;">Submit</button>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/FoodieCentral/style.js"></script>
+</body>
 </html>
