@@ -19,21 +19,26 @@ main {
     height: 80%;
 }
 
-/* img {
-    display: flex;
-    height: 200px;
-} */
+#search-section {
+    padding: 5px;
+}
+
+#layout {
+    display: inline;
+}
 
 .nav-links {
-    display: flex;
+    display: flow-root;
     background-color: gray;
     width: 100%;
 }
 
 
   .menu-links {
-    margin: 0 0 0 305px;
+    position: relative;
+    margin: 0 0 0 25em;
   }
+  
   .dropdown-title, a {
     text-decoration: none;
     padding: 0 10px;
@@ -76,6 +81,11 @@ main {
     left: 0;
     width: 100%;
     display: none;
+  }
+
+  /* test used to hover over entire children of dropdown-list */
+  #test {
+    float: none;
   }
   
   .menu-links ul li:hover > ul,
@@ -122,18 +132,8 @@ appears on the left side of the page.
 #menu {
     width: 20%;
     left: 0;
-    z-index: 1000; /* so the menu or its navicon stays above all content */
     background: #191818;
-    overflow-y: auto;
 }
-    /*
-    All anchors inside the menu should be styled like this.
-    */
-    #menu a {
-        color: #999;
-        border: none;
-        padding: 0.6em 0 0.6em 0.6em;
-    }
         /*
         Change color of the anchor links on hover/focus.
         */
