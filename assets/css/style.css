@@ -2,7 +2,6 @@ header {
     padding: 10px;
     text-align: center;
     background-color: purple;
-    background-image: url(https://media.discordapp.net/attachments/1050566682176925808/1052779088361820261/Beige_Aesthetic_Minimalist_Badge_Circle_Animated_Logo_1.gif);
     background-repeat: no-repeat;
     background-size: 13%;
 }
@@ -12,17 +11,22 @@ body{
     max-width: 100%;
 }
 
-header, footer {
-    height: 10%;
+header {
+    margin-top: -10rem;
+    padding: 1rem;
 }
+
 main {
     height: 80%;
 }
 
-/* img {
+#logo {
     display: flex;
-    height: 200px;
-} */
+    height: 8.9rem;
+    position: relative;
+    top: 9rem;
+    left: -1rem;
+} 
 
 .nav-links {
     display: flex;
