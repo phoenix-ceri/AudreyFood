@@ -10,17 +10,7 @@ header {
   font-size: 2rem;
 }
 
-main {
-  height: 80%;
-}
 
-#logo {
-  display: flex;
-  height: 9rem;
-  position: relative;
-  top: 6rem;
-  left: -1rem;
-}
 
 .nav-links {
     display: flow-root;
@@ -28,29 +18,19 @@ main {
     width: 100%;
 }
 
-
-  .menu-links {
-    position: relative;
-    margin: 0 0 0 25em;
-  }
-
-  #dropdown-submit {
-    display: inline;
-  }
-  
   .dropdown-title, a {
     text-decoration: none;
     padding: 0 10px;
   }
 
-  .menu-links ul {
+  .dropdwn-links ul {
     background: gray;
     list-style: none;
     margin: 0;
     padding-left: 0;
   }
   
-  .menu-links ul li {
+  .dropdwn-links ul li {
     color: #fff;
     background: gray;
     display: block;
@@ -61,16 +41,16 @@ main {
     transition-duration: 0.5s;
   }
     
-  .menu-links ul li a {
+  .dropdwn-links ul li a {
     color: #fff;
   }
   
-  .menu-links ul li:hover {
+  .dropdwn-links ul li:hover {
     background: lightgray;
     cursor: pointer;
   }
   
-  .menu-links ul li ul {
+  .dropdwn-links ul li ul {
     visibility: hidden;
     opacity: 0;
     width: fit-content;
@@ -87,68 +67,36 @@ main {
     float: none;
   }
   
-  .menu-links ul li:hover > ul,
-  .menu-links ul li ul:hover {
+  .dropdwn-links ul li:hover > ul,
+  .dropdwn-links ul li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
   }
   
-  .menu-links ul li ul li {
+  .dropdwn-links ul li ul li {
     clear: both;
   }
+
+
   
-
-form {
-    display: flex;
-    float: right;
-    font-size: 15px;
+.main-section {
+  width: 100%;
+  display: flex;
 }
 
+  /* Filtered choices section */
+  .filtered-choices {
+    width: 15%;
+    background-color: pink;
+  }
 
-/*
-This is the parent `<div>` contains  the content area.
-*/
-.content {
-    margin: 0;
-    line-height: 1.6em;
-    font-weight: 300;
-    color: rgb(0, 0, 0);
-}
-
-/*
-The #menu is the parent `<div>` that contains the .pure-menu that
-appears on the left side of the page.
-*/
-
-#menu {
-    width: 20%;
-    left: 0;
-    background: #191818;
-}
-        /*
-        Change color of the anchor links on hover/focus.
-        */
-        #menu .pure-menu li a:hover,
-        #menu .pure-menu li a:focus {
-            background: #333;
-        }
-    /*
-    This styles the menu heading.
-    */
-    #menu .pure-menu-heading {
-        font-size: 13px;
-        font-weight: bolder;
-        color: #fff;
-        margin: 0;
-    }
-    
-
-    .map {
-        width: 80%;
+/* Map section */
+    .map-container {
+        width: 100%;
         text-align: center;
         background-color: lightgreen;
-        height: 550px;
+        height: 35rem;
     }
 
     #user-submision {
@@ -164,17 +112,19 @@ footer {
     margin: 0;
 }
 
+ #form { 
+  display: block;
+}
+
 .dropbtn {
     background-color: #3498DB;
     color: white;
-    padding: 1rem;
-    font-size: 1rem;
-    border: none;
+
   }
   
   .dropup {
     position: relative;
-    display: inline-block;
+    display: inline;
     float: right;
   }
   
