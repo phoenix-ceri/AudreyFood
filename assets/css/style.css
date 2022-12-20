@@ -1,23 +1,16 @@
-header {
-    padding: 10px;
-    text-align: center;
-    background-color: purple;
-    background-repeat: no-repeat;
-    background-size: 13%;
-}
-
 body{
     max-height: 100%;
     max-width: 100%;
 }
 
 header {
-    margin-top: -10rem;
-    padding: 1rem;
+  text-align: center;
+  background-color: purple;
+  margin-top: -6rem;
+  font-size: 2rem;
 }
 
 
-/* Dropdown section*/
 
 .nav-links {
     display: flow-root;
@@ -126,9 +119,7 @@ footer {
 .dropbtn {
     background-color: #3498DB;
     color: white;
-    padding: .8rem;
-    font-size: 1rem;
-    border-radius: .4rem;
+
   }
   
   .dropup {
