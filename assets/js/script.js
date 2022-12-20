@@ -65,3 +65,19 @@ suggestionButton.addEventListener("click", function(){
 //tailwind form stuff
 });
 
+// geolocation information 
+
+let locationbtn = document.getElementById("locateme");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    console.log("Location Error")
+  }
+}
+
+function showPosition(position) {
+console.log("Latitude: " + position.coords.latitude + 
+  "    Longitude: " + position.coords.longitude);
+}
