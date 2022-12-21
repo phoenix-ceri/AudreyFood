@@ -64,13 +64,13 @@ var requestOptions = {
     //Click function for user's suggestion button 
 var suggestionButton = document.getElementById("email-support");
 var userSuggestionInput = 
-suggestionButton.addEventListener("click", function(){
+//suggestionButton.addEventListener("click", function(){
 //tailwind form stuff
-});
+//});
 
 // geolocation information 
 
-let locationbtn = document.getElementById("locateme");
+document.querySelector('#location').addEventListener('click', getLocation());
 
 function getLocation() {
   if (navigator.geolocation) {
@@ -84,3 +84,4 @@ function showPosition(position) {
 console.log("Latitude: " + position.coords.latitude + 
   "    Longitude: " + position.coords.longitude);
 }
+console.log(document.querySelector('#location'))
