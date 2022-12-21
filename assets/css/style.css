@@ -113,6 +113,7 @@ header {
   display: flex;
 }
 
+
   /* Filtered choices section */
   .filtered-choices {
     width: 15%;
@@ -130,13 +131,6 @@ header {
     font-weight: bold;
   }
 
-/* Map section */
-.map-container {
-  width: 100%;
-  text-align: center;
-  background-color: lightgreen;
-  height: 35rem;
-}
 
 #user-submision {
     text-align: center;
@@ -198,19 +192,38 @@ footer {
 @media screen and (max-width: 992px) {
   .map-container{
   width: 100%;
-  } 
-}
+  }
+
+  #geo-map {
+    width: 95rem;
+    height: 35rem;
+    padding-top: -20rem;
+  }
+} 
+
 
 @media screen and (max-width: 786px) {
+
+header {
+  background-color: #1e85c9;
+  font-family: 'Rock Salt', cursive;
+}
+
   .map-container{
-  width: 100%;
+    width: 100%;
   } 
+
+  .relative {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 110px;
+}
 }
 
 @media screen and (max-width: 600) {
   .map-container{
   width: 120%;
-
   } 
 }
-
