@@ -9,6 +9,8 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
     
     <script>
         tailwind.config = {
@@ -28,7 +30,7 @@
     <header>
             <img id="logo" src="https://media.discordapp.net/attachments/1050566682176925808/1052779088361820261/Beige_Aesthetic_Minimalist_Badge_Circle_Animated_Logo_1.gif" alt="project-logo"> 
             <div id="header-title">
-                <h1 id="company-title">Foodie Central</h1>
+                <h1 id="company-title">FOODIE CENTRAL</h1>
                 <h2 id="company-subtitle">Central Florida Locations!</h2>
             </div>
     </header>
@@ -118,18 +120,14 @@
             </nav>
             <div class="main-section">
                 <div class="map-container">
-                    <h2 class="subhead">Map</h2>
-                    <div id="map">
-                        <img width="571" height="473" 
-                        src="https://maps.geoapify.com/v1/staticmap?style=osm-liberty&width=571&height=473&center=lonlat:-81.421539,28.641699&zoom=9.5577&marker=lonlat:-122.307060209015,47.526340765976215;color:%23ff0000;size:medium&apiKey=51c9b31a24364a49b55fcecffd8cb687"
-                        alt="872 Grand Regency Point, Altamonte Springs, FL 32714, United States of America">
-                    </div>
+                    <img id="map" width="571" height="473" 
+                    src="https://maps.geoapify.com/v1/staticmap?style=osm-liberty&width=571&height=473&center=lonlat:-81.421539,28.641699&zoom=9.5577&marker=lonlat:-122.307060209015,47.526340765976215;color:%23ff0000;size:medium&apiKey=51c9b31a24364a49b55fcecffd8cb687"
+                    alt="872 Grand Regency Point, Altamonte Springs, FL 32714, United States of America">
                 </div>
 
                 <div class=" filtered-choices">
                     <a id="heading" href="#filtered-choices">Filtered Choices</a>
                     <ul class="choices">
-                        <li>Location</li>
                         <li>Business Type</li>
                         <li>Cuisine</li>
                     </ul>
@@ -173,7 +171,7 @@
                         <div class="modal-body relative p-4">
                             <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md">
                                 <form id="form">
-                                    <div class="form-group mb-6">
+                                    <div class="mb-3 ml-2 xl:w-96">
                                         <input type="text" class="form-control block
                                       w-full
                                       px-3
@@ -191,42 +189,56 @@
                                             id="exampleInput7" placeholder="Business name">
                                     </div>
                                     <div class="form-group mb-6">
-                                        <input type="email" class="form-control block
-                                      w-full
-                                      px-3
-                                      py-1.5
-                                      text-base
-                                      font-normal
-                                      text-gray-700
-                                      bg-white bg-clip-padding
-                                      border border-solid border-gray-300
-                                      rounded
-                                      transition
-                                      ease-in-out
-                                      m-0
-                                      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                            id="exampleInput8" placeholder="Business Type">
-                                    </div>
-                                    <div class="form-group mb-6">
-                                        <textarea class="
-                                      form-control
-                                      block
-                                      w-full
-                                      px-3
-                                      py-1.5
-                                      text-base
-                                      font-normal
-                                      text-gray-700
-                                      bg-white bg-clip-padding
-                                      border border-solid border-gray-300
-                                      rounded
-                                      transition
-                                      ease-in-out
-                                      m-0
-                                      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-                                    " id="exampleFormControlTextarea13" rows="3" placeholder="Cuisine"></textarea>
-                                    </div>
-                                    <button type="submit" id="send-btn" class="
+                                        <div class="flex justify-center">
+                                            <div class="mb-3 xl:w-96">
+                                              <select class="form-select appearance-none
+                                                block
+                                                w-full
+                                                px-3
+                                                py-1.5
+                                                text-base
+                                                font-normal
+                                                text-gray-700
+                                                bg-white bg-clip-padding bg-no-repeat
+                                                border border-solid border-gray-300
+                                                rounded
+                                                transition
+                                                ease-in-out
+                                                m-0
+                                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                                                  <option selected>Business Type</option>
+                                                  <option value="1">One</option>
+                                                  <option value="2">Two</option>
+                                                  <option value="3">Three</option>
+                                              </select>
+                                            </div>
+                                          </div>                                    <div class="form-group mb-6">
+                                            <div class="form-group mb-6">
+                                                <div class="flex justify-center">
+                                                    <div class="mb-3 xl:w-96">
+                                                      <select class="form-select appearance-none
+                                                        block
+                                                        w-full
+                                                        px-3
+                                                        py-1.5
+                                                        text-base
+                                                        font-normal
+                                                        text-gray-700
+                                                        bg-white bg-clip-padding bg-no-repeat
+                                                        border border-solid border-gray-300
+                                                        rounded
+                                                        transition
+                                                        ease-in-out
+                                                        m-0
+                                                        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                                                          <option selected>Cuisine</option>
+                                                          <option value="1">One</option>
+                                                          <option value="2">Two</option>
+                                                          <option value="3">Three</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>                                    <div class="form-group mb-6">
+                                            <button type="submit" id="send-btn" class="
                                     w-full
                                     px-6
                                     py-2.5
@@ -243,7 +255,7 @@
                                     active:bg-blue-800 active:shadow-lg
                                     transition
                                     duration-150
-                                    ease-in-out">Send</button>
+                                    ease-in-out">Submit</button>
                                 </form>
                             </div>
                         </div>
