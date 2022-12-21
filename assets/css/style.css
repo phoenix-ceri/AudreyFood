@@ -158,3 +158,5 @@ footer {
   .dropup:hover .dropbtn {
     background-color: #2980B9;
   }
+
+  @media screen and (max-width: 992px) {
