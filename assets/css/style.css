@@ -8,7 +8,9 @@ header {
   background-color: purple;
   margin-top: -6rem;
   font-size: 2rem;
+  display: flex;
 }
+
 
 #logo {
   display: flex;
