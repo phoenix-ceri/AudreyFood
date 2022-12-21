@@ -1,0 +1,4204 @@
+{
+    "restaurants": [
+    {
+        "query": {
+            "text": "948 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "948",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "948",
+        "street": "N Mills Avenue",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Highland",
+        "lon": -81.36444,
+        "lat": 28.557962,
+        "state_code": "FL",
+        "formatted": "948 N Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "948 N Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.294806414732803,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51ac5626fc525754c0592769fe98d68e3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a62313435323735376263366430623961"
+    },
+    {
+        "query": {
+            "text": "201-205 E 1st St, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "201",
+                "street": "e 1st st",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "East 1st Street",
+        "housenumber": "201",
+        "lon": -81.2669930587044,
+        "lat": 28.811608941178196,
+        "state_code": "FL",
+        "formatted": "201 East 1st Street, Sanford, FL 32771, United States of America",
+        "address_line1": "201 East 1st Street",
+        "address_line2": "Sanford, FL 32771, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.036177551002156,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "513ed90d6a165154c0596580839ac5cf3c40f00102f901d8d1ac0000000000c00203"
+    },
+    {
+        "query": {
+            "text": "710 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "710",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "district": "Colonialtown",
+        "street": "Mills Avenue",
+        "housenumber": "710",
+        "lon": -81.36454556405657,
+        "lat": 28.55358255911763,
+        "state_code": "FL",
+        "formatted": "710 Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "710 Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.592533897686306,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "5197e1eab6545754c059d40b2b96b78d3c40f00102f9010f8fa00200000000c00203"
+    },
+    {
+        "query": {
+            "text": "5220 Old Winter Garden Rd, Orlando, FL 32811",
+            "parsed": {
+                "housenumber": "5220",
+                "street": "old winter garden rd",
+                "postcode": "32811",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlovista CDP",
+        "postcode": "32811",
+        "street": "Old Winter Garden Road",
+        "housenumber": "5220",
+        "lon": -81.44996755737726,
+        "lat": 28.540564067226256,
+        "state_code": "FL",
+        "formatted": "5220 Old Winter Garden Road, Orlovista CDP, FL 32811, United States of America",
+        "address_line1": "5220 Old Winter Garden Road",
+        "address_line2": "Orlovista CDP, FL 32811, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.511,
+            "popularity": 4.387418198756358,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "5191ccb944cc5c54c05928211e68628a3c40f00102f90109e4ed0c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "17 W Church St, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "17",
+                "street": "w church st",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "Church Street",
+        "housenumber": "17",
+        "lon": -81.37940497965147,
+        "lat": 28.54043027109716,
+        "state_code": "FL",
+        "formatted": "17 Church Street, Orlando, FL 32801, United States of America",
+        "address_line1": "17 Church Street",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 7.585320229926864,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51bae2d22b485854c059772164a3598a3c40f00102f901904a2c2100000000c00203"
+    },
+    {
+        "query": {
+            "text": "11609 E Colonial Dr, Orlando, FL 32817",
+            "parsed": {
+                "housenumber": "11609",
+                "street": "e colonial dr",
+                "postcode": "32817",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "11609",
+        "street": "East Colonial Drive",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32817",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Rouse Run",
+        "lon": -81.210727,
+        "lat": 28.567976,
+        "state_code": "FL",
+        "formatted": "11609 East Colonial Drive, Orlando, FL 32817, United States of America",
+        "address_line1": "11609 East Colonial Drive",
+        "address_line2": "Orlando, FL 32817, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.9864286283275594,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "519758198d7c4d54c059b4e908e066913c40c00203e2034b6f70656e6164647265737365733a616464726573733a75732f666c2f6f72616e67655f636f756e74792d6164647265737365732d636f756e74793a33396139326134313964313939646661"
+    },
+    {
+        "query": {
+            "text": "5555 W Colonial Dr suite 501, Orlando, FL 32808",
+            "parsed": {
+                "housenumber": "5555",
+                "street": "w colonial dr",
+                "postcode": "32808",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32808",
+        "street": "West Colonial Drive",
+        "housenumber": "5555",
+        "lon": -81.45574518641213,
+        "lat": 28.552509980833637,
+        "state_code": "FL",
+        "city": "Orlovista CDP",
+        "formatted": "5555 West Colonial Drive, Orlovista CDP, FL 32808, United States of America",
+        "address_line1": "5555 West Colonial Drive",
+        "address_line2": "Orlovista CDP, FL 32808, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 4.406505070676897,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51c5bcdbed2a5d54c059e1644a4b718d3c40f00102f901c7d2bb0700000000c00203"
+    },
+    {
+        "query": {
+            "text": "4534 S Orange Blossom Trl, Orlando, FL 32839",
+            "parsed": {
+                "housenumber": "4534",
+                "street": "s orange blossom trl",
+                "postcode": "32839",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "4534",
+        "street": "South Orange Blossom Trail",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32839",
+        "state": "Florida",
+        "city": "Orlando",
+        "lon": -81.39688,
+        "lat": 28.49753,
+        "state_code": "FL",
+        "formatted": "4534 South Orange Blossom Trail, Orlando, FL 32839, United States of America",
+        "address_line1": "4534 South Orange Blossom Trail",
+        "address_line2": "Orlando, FL 32839, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 4.701402354398239,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51ef1b5f7b665954c05965c746205e7f3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a65356430633164623264303263306165"
+    },
+    {
+        "query": {
+            "text": "649 Primrose Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "649",
+                "street": "primrose dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Primrose Drive",
+        "housenumber": "649",
+        "lon": -81.34757351515151,
+        "lat": 28.534887575757576,
+        "state_code": "FL",
+        "formatted": "649 Primrose Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "649 Primrose Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 5.1264521366498625,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "510422fca43e5654c0595fea6464ee883c40f00102f901d1929d0200000000c00203"
+    },
+    {
+        "query": {
+            "text": "10173 University Blvd, Orlando, FL 32817",
+            "parsed": {
+                "housenumber": "10173",
+                "street": "university blvd",
+                "postcode": "32817",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "10173",
+        "street": "University Boulevard",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32817",
+        "state": "Florida",
+        "city": "Orlando",
+        "lon": -81.24238,
+        "lat": 28.59763,
+        "state_code": "FL",
+        "formatted": "10173 University Boulevard, Orlando, FL 32817, United States of America",
+        "address_line1": "10173 University Boulevard",
+        "address_line2": "Orlando, FL 32817, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 4.093844587479368,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51164d6727834f54c059c51b9947fe983c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a62316636643063353164353066333234"
+    },
+    {
+        "query": {
+            "text": "813 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "813",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "district": "Colonialtown",
+        "street": "Mills Avenue",
+        "housenumber": "813",
+        "lon": -81.364354,
+        "lat": 28.555593,
+        "state_code": "FL",
+        "formatted": "813 Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "813 Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.294806414732803,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51ad8a7093515754c059f3e2c4573b8e3c40f00102f9010f8fa00200000000c00203"
+    },
+    {
+        "query": {
+            "text": "3114 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3114",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "Kelly's Homemade Ice Cream",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3114",
+        "lon": -81.3446885,
+        "lat": 28.5676222,
+        "state_code": "FL",
+        "formatted": "Kelly's Homemade Ice Cream, 3114 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "Kelly's Homemade Ice Cream",
+        "address_line2": "3114 Corrine Drive, Orlando, FL 32803, United States of America",
+        "category": "catering.ice_cream",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943740211884593,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51abb35a600f5654c059cb7b41b04f913c40f00103f901d5b44a2b02000000c0020192031a4b656c6c79277320486f6d656d6164652049636520437265616d"
+    },
+    {
+        "query": {
+            "text": "276 S Orlando Ave, Winter Park, FL 32789",
+            "parsed": {
+                "housenumber": "276",
+                "street": "s orlando ave",
+                "postcode": "32789",
+                "city": "winter park",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32789",
+        "suburb": "Winter Park",
+        "street": "Orlando Avenue",
+        "housenumber": "276",
+        "lon": -81.3648646,
+        "lat": 28.5957611,
+        "state_code": "FL",
+        "formatted": "276 Orlando Avenue, Winter Park, FL 32789, United States of America",
+        "address_line1": "276 Orlando Avenue",
+        "address_line2": "Winter Park, FL 32789, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.721,
+            "popularity": 4.616903252317461,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51f61d0df1595754c0599fbaa8cc83983c40f00103f9012e8bae0402000000c00203"
+    },
+    {
+        "query": {
+            "text": "420 E Church St Unit 112, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "420",
+                "street": "e church st",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "Church Street",
+        "housenumber": "420",
+        "lon": -81.38445167045455,
+        "lat": 28.540097,
+        "state_code": "FL",
+        "formatted": "420 Church Street, Orlando, FL 32801, United States of America",
+        "address_line1": "420 Church Street",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 6.804484589785329,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51acdf2ddb9a5854c059efaa07cc438a3c40f00102f9013d8ecd0200000000c00203"
+    },
+    {
+        "query": {
+            "text": "214 E 1st St, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "214",
+                "street": "e 1st st",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "Wondermade",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "East 1st Street",
+        "housenumber": "214",
+        "lon": -81.266927,
+        "lat": 28.8118775,
+        "state_code": "FL",
+        "formatted": "Wondermade, 214 East 1st Street, Sanford, FL 32771, United States of America",
+        "address_line1": "Wondermade",
+        "address_line2": "214 East 1st Street, Sanford, FL 32771, United States of America",
+        "category": "catering.ice_cream",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.036177551002156,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51d7dafb54155154c059b6db2e34d7cf3c40f00103f901382c871302000000c0020192030a576f6e6465726d616465"
+    },
+    {
+        "query": {
+            "text": "25 W Church St, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "25",
+                "street": "w church st",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "Church Street",
+        "housenumber": "25",
+        "lon": -81.37952898113352,
+        "lat": 28.540428035228903,
+        "state_code": "FL",
+        "formatted": "25 Church Street, Orlando, FL 32801, United States of America",
+        "address_line1": "25 Church Street",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 7.585320229926864,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "519276ec334a5854c0595126e17d598a3c40f00102f901904a2c2100000000c00203"
+    },
+    {
+        "query": {
+            "text": "3 Phoenix Building, 30 S Magnolia Ave, Orlando, FL 3",
+            "parsed": {
+                "house": "3 phoenix building",
+                "housenumber": "30",
+                "street": "s magnolia ave",
+                "expected_type": "amenity"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "30",
+        "street": "South Magnolia Avenue",
+        "country": "United States",
+        "county": "Marion County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "34471",
+        "state": "Florida",
+        "city": "Ocala",
+        "lon": -82.136908,
+        "lat": 29.186382,
+        "state_code": "FL",
+        "formatted": "30 South Magnolia Avenue, Ocala, FL 34471, United States of America",
+        "address_line1": "30 South Magnolia Avenue",
+        "address_line2": "Ocala, FL 34471, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.4714516139110447,
+            "confidence": 0.9,
+            "match_type": "match_by_building"
+        },
+        "place_id": "51e4a3c519c38854c059259012bbb62f3d40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a33313639303731643063373937353364"
+    },
+    {
+        "query": {
+            "text": "1842 Winter Park Rd, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1842",
+                "street": "winter park rd",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "suburb": "Winter Park",
+        "street": "Winter Park Road",
+        "housenumber": "1842",
+        "lon": -81.34598258719977,
+        "lat": 28.56817613919172,
+        "state_code": "FL",
+        "formatted": "1842 Winter Park Road, Orlando, FL 32803, United States of America",
+        "address_line1": "1842 Winter Park Road",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.942967095857499,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "518b402694245654c0592c32d0fd73913c40f00102f9015598440800000000c00203"
+    },
+    {
+        "query": {
+            "text": " 27 E Pine St, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "27",
+                "street": "e pine st",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "Pine Street",
+        "housenumber": "27",
+        "lon": -81.37843068181817,
+        "lat": 28.54139536363636,
+        "state_code": "FL",
+        "formatted": "27 Pine Street, Orlando, FL 32801, United States of America",
+        "address_line1": "27 Pine Street",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 7.414217787528615,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51928d5235385854c0593206f5e2988a3c40f00102f9013e74ba0c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "617 Primrose Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "617",
+                "street": "primrose dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Primrose Drive",
+        "housenumber": "617",
+        "lon": -81.34757113333333,
+        "lat": 28.535249733333334,
+        "state_code": "FL",
+        "formatted": "617 Primrose Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "617 Primrose Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 5.1264521366498625,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51d2acfe9a3e5654c05901dc632006893c40f00102f901d1929d0200000000c00203"
+    },
+    {
+        "query": {
+            "text": "609 Irvington Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "609",
+                "street": "irvington ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Irvington Avenue",
+        "housenumber": "609",
+        "lon": -81.3467654026414,
+        "lat": 28.551728403770376,
+        "state_code": "FL",
+        "formatted": "609 Irvington Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "609 Irvington Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 5.427197319430881,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51a9ee8367315654c059d2779a123e8d3c40f00102f90151a7aa0000000000c00203"
+    },
+    {
+        "query": {
+            "text": "1905 N Orange Ave, Orlando, FL 32804",
+            "parsed": {
+                "housenumber": "1905",
+                "street": "n orange ave",
+                "postcode": "32804",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32804",
+        "street": "North Orange Avenue",
+        "housenumber": "1905",
+        "lon": -81.37262184049065,
+        "lat": 28.569100282203852,
+        "state_code": "FL",
+        "formatted": "1905 North Orange Avenue, Orlando, FL 32804, United States of America",
+        "address_line1": "1905 North Orange Avenue",
+        "address_line2": "Orlando, FL 32804, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.131566810763485,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51b1ab4609d95754c059bd355c8eb0913c40f00102f90106d6980700000000c00203"
+    },
+    {
+        "query": {
+            "text": "855 E State Rd 434, Winter Springs, FL 32708",
+            "parsed": {
+                "housenumber": "855",
+                "street": "e state rd 434",
+                "postcode": "32708",
+                "city": "winter springs",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "855",
+        "street": "East State Road 434",
+        "country": "United States",
+        "county": "Seminole County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32708",
+        "state": "Florida",
+        "city": "Winter Springs",
+        "lon": -81.2851,
+        "lat": 28.70423,
+        "state_code": "FL",
+        "formatted": "855 East State Road 434, Winter Springs, FL 32708, United States of America",
+        "address_line1": "855 East State Road 434",
+        "address_line2": "Winter Springs, FL 32708, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.2337164167871437,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51bc0512143f5254c059b1dcd26a48b43c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a36323731363437383034333134343034"
+    },
+    {
+        "query": {
+            "text": "212 W 1st St Unit 1070, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "212",
+                "street": "w 1st st",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "The Basin",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "West 1st Street",
+        "housenumber": "212",
+        "lon": -81.2698698,
+        "lat": 28.8125581,
+        "state_code": "FL",
+        "formatted": "The Basin, 212 West 1st Street, Sanford, FL 32771, United States of America",
+        "address_line1": "The Basin",
+        "address_line2": "212 West 1st Street, Sanford, FL 32771, United States of America",
+        "category": "catering.bar",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.0313455758328236,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51654bfb8b455154c0599399c1ce03d03c40f00103f901f1e3c91402000000c0020192030954686520426173696e"
+    },
+    {
+        "query": {
+            "text": "2406 E Robinson St, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "2406",
+                "street": "e robinson st",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "2406",
+        "street": "East Robinson Street",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Colonialtown South",
+        "lon": -81.351345,
+        "lat": 28.545804,
+        "state_code": "FL",
+        "formatted": "2406 East Robinson Street, Orlando, FL 32803, United States of America",
+        "address_line1": "2406 East Robinson Street",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.344828321935558,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "513d27bd6f7c5654c059a7069acfb98b3c40c00203e2034b6f70656e6164647265737365733a616464726573733a75732f666c2f6f72616e67655f636f756e74792d6164647265737365732d636f756e74793a61393938313061623833303231616261"
+    },
+    {
+        "query": {
+            "text": "12140 Collegiate Way Suite 105, Orlando, FL 32817",
+            "parsed": {
+                "housenumber": "12140",
+                "street": "collegiate way",
+                "postcode": "32817",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32817",
+        "street": "Collegiate Way",
+        "housenumber": "12140",
+        "lon": -81.2110731229174,
+        "lat": 28.596859040206038,
+        "state_code": "FL",
+        "formatted": "12140 Collegiate Way, Orange County, FL 32817, United States of America",
+        "address_line1": "12140 Collegiate Way",
+        "address_line2": "Orange County, FL 32817, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.42099999999999993,
+            "popularity": 4.307505478163155,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51abffd738824d54c059c3010ac1cb983c40f00102f901f25e930c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "212 W 1st St, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "212",
+                "street": "w 1st st",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "The Basin",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "West 1st Street",
+        "housenumber": "212",
+        "lon": -81.2698698,
+        "lat": 28.8125581,
+        "state_code": "FL",
+        "formatted": "The Basin, 212 West 1st Street, Sanford, FL 32771, United States of America",
+        "address_line1": "The Basin",
+        "address_line2": "212 West 1st Street, Sanford, FL 32771, United States of America",
+        "category": "catering.bar",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.0313455758328236,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51654bfb8b455154c0599399c1ce03d03c40f00103f901f1e3c91402000000c0020192030954686520426173696e"
+    },
+    {
+        "query": {
+            "text": "885 N Orange Ave, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "885",
+                "street": "n orange ave",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "Downtown CREDO",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "North Orange Avenue",
+        "housenumber": "885",
+        "lon": -81.379011,
+        "lat": 28.5563147,
+        "state_code": "FL",
+        "formatted": "Downtown CREDO, 885 North Orange Avenue, Orlando, FL 32801, United States of America",
+        "address_line1": "Downtown CREDO",
+        "address_line2": "885 North Orange Avenue, Orlando, FL 32801, United States of America",
+        "category": "catering.cafe",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.300885752120121,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51c1745ab7415854c059b8c8e2a36a8e3c40f00103f90191603a3301000000c0020192030e446f776e746f776e20435245444f"
+    },
+    {
+        "query": {
+            "text": "12098 Collegiate Way, Orlando, FL 32817",
+            "parsed": {
+                "housenumber": "12098",
+                "street": "collegiate way",
+                "postcode": "32817",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32817",
+        "street": "Collegiate Way",
+        "housenumber": "12098",
+        "lon": -81.21166265774843,
+        "lat": 28.596853711937715,
+        "state_code": "FL",
+        "formatted": "12098 Collegiate Way, Orange County, FL 32817, United States of America",
+        "address_line1": "12098 Collegiate Way",
+        "address_line2": "Orange County, FL 32817, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.42099999999999993,
+            "popularity": 4.307505478163155,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51183488e18b4d54c059c944a567cb983c40f00102f901f25e930c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "1011 E Colonial Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1011",
+                "street": "e colonial dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1011",
+        "street": "East Colonial Drive",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Lake Eola Heights",
+        "lon": -81.366397,
+        "lat": 28.55318,
+        "state_code": "FL",
+        "formatted": "1011 East Colonial Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "1011 East Colonial Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.811058292828425,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "519016670c735754c05921cd58349d8d3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a62623730353434656566643865353364"
+    },
+    {
+        "query": {
+            "text": "1051 W Fairbanks Ave, Winter Park, FL 32789",
+            "parsed": {
+                "housenumber": "1051",
+                "street": "w fairbanks ave",
+                "postcode": "32789",
+                "city": "winter park",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32789",
+        "suburb": "Winter Park",
+        "street": "Fairbanks Avenue",
+        "housenumber": "1051",
+        "lon": -81.3628116,
+        "lat": 28.5932115,
+        "state_code": "FL",
+        "formatted": "1051 Fairbanks Avenue, Winter Park, FL 32789, United States of America",
+        "address_line1": "1051 Fairbanks Avenue",
+        "address_line2": "Winter Park, FL 32789, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.721,
+            "popularity": 4.836440942529068,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "510127254e385754c059711c78b5dc973c40f00103f901599aae0402000000c00203"
+    },
+    {
+        "query": {
+            "text": "151 S Orange Ave, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "151",
+                "street": "s orange ave",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "South Orange Avenue",
+        "housenumber": "151",
+        "lon": -81.37887079591837,
+        "lat": 28.540909918367344,
+        "state_code": "FL",
+        "formatted": "151 South Orange Avenue, Orlando, FL 32801, United States of America",
+        "address_line1": "151 South Orange Avenue",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 7.585320229926864,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "5140784b6b3f5854c05943788912798a3c40f00102f901d1a76a0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "8 N Summerlin Ave, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "8",
+                "street": "n summerlin ave",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "district": "Thornton Park",
+        "street": "Summerlin Avenue",
+        "housenumber": "8",
+        "lon": -81.36856239116698,
+        "lat": 28.542457949515715,
+        "state_code": "FL",
+        "formatted": "8 Summerlin Avenue, Orlando, FL 32801, United States of America",
+        "address_line1": "8 Summerlin Avenue",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 6.389673206777499,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "514126b686965754c0590ea03086de8a3c40f00102f9016e25de0c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "212 W 1st St Suite A, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "212",
+                "street": "w 1st st",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "The Basin",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "West 1st Street",
+        "housenumber": "212",
+        "lon": -81.2698698,
+        "lat": 28.8125581,
+        "state_code": "FL",
+        "formatted": "The Basin, 212 West 1st Street, Sanford, FL 32771, United States of America",
+        "address_line1": "The Basin",
+        "address_line2": "212 West 1st Street, Sanford, FL 32771, United States of America",
+        "category": "catering.bar",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.0313455758328236,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51654bfb8b455154c0599399c1ce03d03c40f00103f901f1e3c91402000000c0020192030954686520426173696e"
+    },
+    {
+        "query": {
+            "text": "212 W 1st St, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "212",
+                "street": "w 1st st",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "The Basin",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "West 1st Street",
+        "housenumber": "212",
+        "lon": -81.2698698,
+        "lat": 28.8125581,
+        "state_code": "FL",
+        "formatted": "The Basin, 212 West 1st Street, Sanford, FL 32771, United States of America",
+        "address_line1": "The Basin",
+        "address_line2": "212 West 1st Street, Sanford, FL 32771, United States of America",
+        "category": "catering.bar",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.0313455758328236,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51654bfb8b455154c0599399c1ce03d03c40f00103f901f1e3c91402000000c0020192030954686520426173696e"
+    },
+    {
+        "query": {
+            "text": "10153 University Blvd, Orlando, FL 32817",
+            "parsed": {
+                "housenumber": "10153",
+                "street": "university blvd",
+                "postcode": "32817",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "10153",
+        "street": "University Boulevard",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32817",
+        "state": "Florida",
+        "city": "Orlando",
+        "lon": -81.24238,
+        "lat": 28.59763,
+        "state_code": "FL",
+        "formatted": "10153 University Boulevard, Orlando, FL 32817, United States of America",
+        "address_line1": "10153 University Boulevard",
+        "address_line2": "Orlando, FL 32817, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 4.093844587479368,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51164d6727834f54c059c51b9947fe983c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a62616264653261613331633732333133"
+    },
+    {
+        "query": {
+            "text": " 200 Myrtle Ave, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "200",
+                "street": "myrtle ave",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "200",
+        "street": "Myrtle Avenue",
+        "country": "United States",
+        "county": "Seminole County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32771",
+        "state": "Florida",
+        "city": "Sanford",
+        "lon": -81.270262,
+        "lat": 28.810579,
+        "state_code": "FL",
+        "formatted": "200 Myrtle Avenue, Sanford, FL 32771, United States of America",
+        "address_line1": "200 Myrtle Avenue",
+        "address_line2": "Sanford, FL 32771, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.034594877810374,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "5180d6fcf84b5154c0590bd3f71a82cf3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a64326533366165333332613563383139"
+    },
+    {
+        "query": {
+            "text": "1700 W Sand Lake Rd D124, Orlando, FL 32809",
+            "parsed": {
+                "housenumber": "1700",
+                "street": "w sand lake rd d124",
+                "postcode": "32809",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "lon": -81.3790304,
+        "lat": 28.5421109,
+        "state_code": "FL",
+        "distance": 0,
+        "formatted": "Orlando, FL, United States of America",
+        "address_line1": "Orlando, FL",
+        "address_line2": "United States of America",
+        "category": "administrative",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "city",
+        "rank": {
+            "importance": 0.8305938364430199,
+            "popularity": 7.429870911780094,
+            "confidence": 0.25,
+            "confidence_city_level": 1,
+            "match_type": "match_by_city_or_disrict"
+        },
+        "place_id": "51260cb908425854c0591d4eaac7c78a3c40f00101f901bb37110000000000c00208"
+    },
+    {
+        "query": {
+            "text": "114 S Palmetto Ave, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "114",
+                "street": "s palmetto ave",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "South Palmetto Avenue",
+        "housenumber": "114",
+        "lon": -81.26619182992532,
+        "lat": 28.81116575,
+        "state_code": "FL",
+        "formatted": "114 South Palmetto Avenue, Sanford, FL 32771, United States of America",
+        "address_line1": "114 South Palmetto Avenue",
+        "address_line2": "Sanford, FL 32771, United States of America",
+        "category": "building.commercial",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.036177551002156,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "5177ff7449095154c059a4e2ff8ea8cf3c40f00102f901bfc47b3900000000c00203"
+    },
+    {
+        "query": {
+            "text": "3020 Lamberton Blvd #110, Orlando, FL 32825",
+            "parsed": {
+                "housenumber": "3020",
+                "street": "lamberton blvd #110",
+                "postcode": "32825",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "3020",
+        "street": "Lamberton Boulevard",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32825",
+        "state": "Florida",
+        "city": "Orlando",
+        "lon": -81.236789,
+        "lat": 28.509501,
+        "state_code": "FL",
+        "formatted": "3020 Lamberton Boulevard, Orlando, FL 32825, United States of America",
+        "address_line1": "3020 Lamberton Boulevard",
+        "address_line2": "Orlando, FL 32825, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 4.085172350047679,
+            "confidence": 0.63,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.63,
+            "match_type": "full_match"
+        },
+        "place_id": "515dc30c8d274f54c059804754a86e823c40c00203e2034b6f70656e6164647265737365733a616464726573733a75732f666c2f6f72616e67655f636f756e74792d6164647265737365732d636f756e74793a35376238363762393638623131373861"
+    },
+    {
+        "query": {
+            "text": "39 W Pine St, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "39",
+                "street": "w pine st",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "street": "West Pine Street",
+        "housenumber": "39",
+        "lon": -81.37970612244898,
+        "lat": 28.541382857142857,
+        "state_code": "FL",
+        "formatted": "39 West Pine Street, Orlando, FL 32801, United States of America",
+        "address_line1": "39 West Pine Street",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 7.429870911780094,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "519980e81a4d5854c0592a0b2211988a3c40f00102f9010d82880c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "200 south Myrtle Ave, Sanford, FL 32771",
+            "parsed": {
+                "housenumber": "200",
+                "street": "south myrtle ave",
+                "postcode": "32771",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "Suffering Bastard Tiki Bar",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Sanford",
+        "postcode": "32771",
+        "street": "South Myrtle Avenue",
+        "housenumber": "200",
+        "lon": -81.2703546,
+        "lat": 28.8105328,
+        "state_code": "FL",
+        "formatted": "Suffering Bastard Tiki Bar, 200 South Myrtle Avenue, Sanford, FL 32771, United States of America",
+        "address_line1": "Suffering Bastard Tiki Bar",
+        "address_line2": "200 South Myrtle Avenue, Sanford, FL 32771, United States of America",
+        "category": "catering.bar",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.034594877810374,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51af54617d4d5154c059d755dc137fcf3c40f00103f901f9e3c91402000000c0020192031a537566666572696e6720426173746172642054696b6920426172"
+    },
+    {
+        "query": {
+            "text": "3755 S Orlando Dr, Sanford, FL 32773",
+            "parsed": {
+                "housenumber": "3755",
+                "street": "s orlando dr",
+                "postcode": "32773",
+                "city": "sanford",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "3755",
+        "street": "South Orlando Drive",
+        "country": "United States",
+        "county": "Seminole County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32771",
+        "state": "Florida",
+        "city": "Sanford",
+        "lon": -81.285337,
+        "lat": 28.75943,
+        "state_code": "FL",
+        "formatted": "3755 South Orlando Drive, Sanford, FL 32771, United States of America",
+        "address_line1": "3755 South Orlando Drive",
+        "address_line2": "Sanford, FL 32771, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.428006282441748,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51aed51ef6425254c059ed9925016ac23c40c00203e203466f70656e6164647265737365733a616464726573733a75732f666c2f7374617465776964652d6164647265737365732d73746174653a37386133323336326363376533323864"
+    },
+    {
+        "query": {
+            "text": "920 International Pkwy #1016, Lake Mary, FL 32746",
+            "parsed": {
+                "housenumber": "920",
+                "street": "international pkwy #1016",
+                "postcode": "32746",
+                "city": "lake mary",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "920",
+        "street": "International Parkway",
+        "country": "United States",
+        "county": "Seminole County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32746",
+        "state": "Florida",
+        "city": "Lake Mary",
+        "lon": -81.358299,
+        "lat": 28.77888,
+        "state_code": "FL",
+        "formatted": "920 International Parkway, Lake Mary, FL 32746, United States of America",
+        "address_line1": "920 International Parkway",
+        "address_line2": "Lake Mary, FL 32746, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.161214137200176,
+            "confidence": 0.63,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.63,
+            "match_type": "full_match"
+        },
+        "place_id": "5121cced5eee5654c0592c82ffad64c73c40c00203e203466f70656e6164647265737365733a616464726573733a75732f666c2f7374617465776964652d6164647265737365732d73746174653a66316139663165643561626431303638"
+    },
+    {
+        "query": {
+            "text": " 67 N Bumby Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "67",
+                "street": "n bumby ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "North Bumby Avenue",
+        "housenumber": "67",
+        "lon": -81.35177553827079,
+        "lat": 28.543700540343313,
+        "state_code": "FL",
+        "formatted": "67 North Bumby Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "67 North Bumby Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.344828321935558,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51f9198c7d835654c059919767f52f8b3c40f00102f901c08dd00400000000c00203"
+    },
+    {
+        "query": {
+            "text": "1196 Tree Swallow Dr Unit 1318, Winter Springs, FL 32708",
+            "parsed": {
+                "housenumber": "1196",
+                "street": "tree swallow dr",
+                "postcode": "32708",
+                "city": "winter springs",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "postcode": "32708",
+        "suburb": "Winter Springs",
+        "retail": "Winter Springs Town Center",
+        "street": "Tree Swallow Drive",
+        "housenumber": "1196",
+        "lon": -81.2622430927074,
+        "lat": 28.698454139622292,
+        "state_code": "FL",
+        "formatted": "1196 Tree Swallow Drive, Winter Springs, FL 32708, United States of America",
+        "address_line1": "1196 Tree Swallow Drive",
+        "address_line2": "Winter Springs, FL 32708, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.260080412403638,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51eeb14097c85054c059fe6ef7e3cdb23c40f00102f901fc2ca31200000000c00203"
+    },
+    {
+        "query": {
+            "text": "11764 University Blvd, Orlando, FL 32817",
+            "parsed": {
+                "housenumber": "11764",
+                "street": "university blvd",
+                "postcode": "32817",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32817",
+        "street": "University Boulevard",
+        "housenumber": "11764",
+        "lon": -81.2137977278937,
+        "lat": 28.5971582,
+        "state_code": "FL",
+        "formatted": "11764 University Boulevard, Orlando, FL 32817, United States of America",
+        "address_line1": "11764 University Boulevard",
+        "address_line2": "Orlando, FL 32817, United States of America",
+        "category": "building.commercial",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.32100000000000006,
+            "popularity": 4.304832060269142,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51ce50aadcae4d54c059c9891b5cdf983c40f00102f901df50cb1d00000000c00203"
+    },
+    {
+        "query": {
+            "text": "1869 W State Rd 434, Longwood, FL 32750",
+            "parsed": {
+                "housenumber": "1869",
+                "street": "w state rd 434",
+                "postcode": "32750",
+                "city": "longwood",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "postcode": "32750",
+        "suburb": "Longwood",
+        "street": "West State Road 434",
+        "housenumber": "1869",
+        "lon": -81.38673323232324,
+        "lat": 28.69203404040404,
+        "state_code": "FL",
+        "formatted": "1869 West State Road 434, Longwood, FL 32750, United States of America",
+        "address_line1": "1869 West State Road 434",
+        "address_line2": "Longwood, FL 32750, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.476335680395233,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51b346be3cc05854c0590c41932429b13c40f00102f9019ef5090d00000000c00203"
+    },
+    {
+        "query": {
+            "text": "912 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "912",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "912",
+        "street": "N Mills Avenue",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Highland",
+        "lon": -81.364626,
+        "lat": 28.557216,
+        "state_code": "FL",
+        "formatted": "912 N Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "912 N Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.294806414732803,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "515d514a08565754c059d5ce30b5a58e3c40c00203e2034b6f70656e6164647265737365733a616464726573733a75732f666c2f6f72616e67655f636f756e74792d6164647265737365732d636f756e74793a35656263303236643637326531386236"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr STE 201, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "1333 W Broadway St, Oviedo, FL 32765",
+            "parsed": {
+                "housenumber": "1333",
+                "street": "w broadway st",
+                "postcode": "32765",
+                "city": "oviedo",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "city": "Oviedo",
+        "postcode": "32765",
+        "street": "Broadway Street",
+        "housenumber": "1333",
+        "lon": -81.18538445464337,
+        "lat": 28.667231423417295,
+        "state_code": "FL",
+        "formatted": "1333 Broadway Street, Oviedo, FL 32765, United States of America",
+        "address_line1": "1333 Broadway Street",
+        "address_line2": "Oviedo, FL 32765, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.093700274409335,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "515378c256dd4b54c059d970b6adcfaa3c40f00102f901e2db030800000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr Suite 100, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr Suite 8, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "156 Tuskawilla Rd, Winter Springs, FL 32708",
+            "parsed": {
+                "housenumber": "156",
+                "street": "tuskawilla rd",
+                "postcode": "32708",
+                "city": "winter springs",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Seminole County",
+        "postcode": "32708",
+        "suburb": "Winter Springs",
+        "street": "Tuskawilla Road",
+        "housenumber": "156",
+        "lon": -81.262856,
+        "lat": 28.69566,
+        "state_code": "FL",
+        "formatted": "156 Tuskawilla Road, Winter Springs, FL 32708, United States of America",
+        "address_line1": "156 Tuskawilla Road",
+        "address_line2": "Winter Springs, FL 32708, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.21100000000000002,
+            "popularity": 3.260080412403638,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51ace3f8a1d25054c059a72215c616b23c40f00102f901d766150800000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr #106, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr #106",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "3201",
+        "street": "Corrine Drive",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Coytown",
+        "lon": -81.343803,
+        "lat": 28.568257,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 4.943981810643059,
+            "confidence": 0.63,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.63,
+            "match_type": "full_match"
+        },
+        "place_id": "5111514cde005654c0591bb96e4a79913c40c00203e2034b6f70656e6164647265737365733a616464726573733a75732f666c2f6f72616e67655f636f756e74792d6164647265737365732d636f756e74793a33306639356134313636636363633961"
+    },
+    {
+        "query": {
+            "text": "1011 E Colonial Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1011",
+                "street": "e colonial dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1011",
+        "street": "East Colonial Drive",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Lake Eola Heights",
+        "lon": -81.366397,
+        "lat": 28.55318,
+        "state_code": "FL",
+        "formatted": "1011 East Colonial Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "1011 East Colonial Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.811058292828425,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "519016670c735754c05921cd58349d8d3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a62623730353434656566643865353364"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr STE 203, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": "3201 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3201",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3201",
+        "lon": -81.344144625,
+        "lat": 28.567774125,
+        "state_code": "FL",
+        "formatted": "3201 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3201 Corrine Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.943981810643059,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51075e2d77065654c059d86322a559913c40f00102f901f7aefc0400000000c00203"
+    },
+    {
+        "query": {
+            "text": " 807 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "807",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "district": "Colonialtown",
+        "street": "Mills Avenue",
+        "housenumber": "807",
+        "lon": -81.364354,
+        "lat": 28.5554745,
+        "state_code": "FL",
+        "formatted": "807 Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "807 Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.586585581940894,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51ad8a7093515754c0590f43ab93338e3c40f00102f9010f8fa00200000000c00203"
+    },
+    {
+        "query": {
+            "text": "1450 Tuskawilla Rd #108, Winter Springs, FL 32708",
+            "parsed": {
+                "housenumber": "1450",
+                "street": "tuskawilla rd #108",
+                "postcode": "32708",
+                "city": "winter springs",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1450",
+        "street": "Tuskawilla Road",
+        "country": "United States",
+        "county": "Seminole County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32708",
+        "state": "Florida",
+        "city": "Winter Springs",
+        "lon": -81.26764,
+        "lat": 28.646201,
+        "state_code": "FL",
+        "formatted": "1450 Tuskawilla Road, Winter Springs, FL 32708, United States of America",
+        "address_line1": "1450 Tuskawilla Road",
+        "address_line2": "Winter Springs, FL 32708, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 3.789101792479651,
+            "confidence": 0.63,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.63,
+            "match_type": "full_match"
+        },
+        "place_id": "517ec68503215154c0597ba4c16d6da53c40c00203e203466f70656e6164647265737365733a616464726573733a75732f666c2f7374617465776964652d6164647265737365732d73746174653a61376136323764653737663661646132"
+    },
+    {
+        "query": {
+            "text": "426 W Plant St, Winter Garden, FL 34787",
+            "parsed": {
+                "housenumber": "426",
+                "street": "w plant st",
+                "postcode": "34787",
+                "city": "winter garden",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Winter Garden",
+        "postcode": "34787",
+        "street": "Plant Street",
+        "housenumber": "426",
+        "lon": -81.5907834,
+        "lat": 28.5639242,
+        "state_code": "FL",
+        "formatted": "426 Plant Street, Winter Garden, FL 34787, United States of America",
+        "address_line1": "426 Plant Street",
+        "address_line2": "Winter Garden, FL 34787, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 3.337802102564149,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "5143812d65cf6554c059476c1c565d903c40f00103f90128c7e70402000000c00203"
+    },
+    {
+        "query": {
+            "text": "565 W Fairbanks Ave, Winter Park, FL 32789",
+            "parsed": {
+                "housenumber": "565",
+                "street": "w fairbanks ave",
+                "postcode": "32789",
+                "city": "winter park",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32789",
+        "suburb": "Winter Park",
+        "street": "Fairbanks Avenue",
+        "housenumber": "565",
+        "lon": -81.3559532,
+        "lat": 28.5932792,
+        "state_code": "FL",
+        "formatted": "565 Fairbanks Avenue, Winter Park, FL 32789, United States of America",
+        "address_line1": "565 Fairbanks Avenue",
+        "address_line2": "Winter Park, FL 32789, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.721,
+            "popularity": 4.846735081216255,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51053aeeefc75654c059a5654925e1973c40f00103f9012d7cae0402000000c00203"
+    },
+    {
+        "query": {
+            "text": "544 W Fairbanks Ave, Winter Park, FL 32789",
+            "parsed": {
+                "housenumber": "544",
+                "street": "w fairbanks ave",
+                "postcode": "32789",
+                "city": "winter park",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32789",
+        "suburb": "Winter Park",
+        "street": "Fairbanks Avenue",
+        "housenumber": "544",
+        "lon": -81.3563817,
+        "lat": 28.5927619,
+        "state_code": "FL",
+        "formatted": "544 Fairbanks Avenue, Winter Park, FL 32789, United States of America",
+        "address_line1": "544 Fairbanks Avenue",
+        "address_line2": "Winter Park, FL 32789, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.721,
+            "popularity": 4.846735081216255,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51259930f5ce5654c05998d06e3ebf973c40f00103f9015487ae0402000000c00203"
+    },
+    {
+        "query": {
+            "text": "1110 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1110",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1110",
+        "street": "N Mills Avenue",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Highland",
+        "lon": -81.36444,
+        "lat": 28.560483,
+        "state_code": "FL",
+        "formatted": "1110 N Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "1110 N Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.245637195961188,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51ac5626fc525754c059c7f65ad07b8f3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a37663036616634643662626262323436"
+    },
+    {
+        "query": {
+            "text": "424 N Bumby Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "424",
+                "street": "n bumby ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "North Bumby Avenue",
+        "housenumber": "424",
+        "lon": -81.35207145687855,
+        "lat": 28.548666537505785,
+        "state_code": "FL",
+        "formatted": "424 North Bumby Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "424 North Bumby Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.405766054473332,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "518049b856885654c05935ff0269758c3c40f00102f901dc26580900000000c00203"
+    },
+    {
+        "query": {
+            "text": "720 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "720",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "district": "Colonialtown",
+        "street": "Mills Avenue",
+        "housenumber": "720",
+        "lon": -81.3645428620315,
+        "lat": 28.553892211190785,
+        "state_code": "FL",
+        "formatted": "720 Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "720 Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.592533897686306,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51989a95ab545754c059d49244e1cb8d3c40f00102f9010f8fa00200000000c00203"
+    },
+    {
+        "query": {
+            "text": "1030 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1030",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1030",
+        "street": "N Mills Avenue",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Highland",
+        "lon": -81.36444,
+        "lat": 28.55947,
+        "state_code": "FL",
+        "formatted": "1030 N Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "1030 N Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.29272866540999,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51ac5626fc525754c059d717096d398f3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a65396665326436623139356232653038"
+    },
+    {
+        "query": {
+            "text": "1835 E Colonial Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1835",
+                "street": "e colonial dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1835",
+        "street": "East Colonial Drive",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Colonialtown South",
+        "lon": -81.35795,
+        "lat": 28.553142,
+        "state_code": "FL",
+        "formatted": "1835 East Colonial Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "1835 East Colonial Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.530748538596244,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "519be61da7e85654c059460bd0b69a8d3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a31366561306361363431346537626238"
+    },
+    {
+        "query": {
+            "text": "1231 E Colonial Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1231",
+                "street": "e colonial dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1231",
+        "street": "East Colonial Drive",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Colonialtown South",
+        "lon": -81.363476,
+        "lat": 28.55315,
+        "state_code": "FL",
+        "formatted": "1231 East Colonial Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "1231 East Colonial Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.598959587664859,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "516138d730435754c0594bc8073d9b8d3c40c00203e203476f70656e6164647265737365733a616464726573733a75732f666c2f737461746577696465322d6164647265737365732d73746174653a66343032386361666536396434313432"
+    },
+    {
+        "query": {
+            "text": "1225 N Mills Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1225",
+                "street": "n mills ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "country_code": "us",
+        "housenumber": "1225",
+        "street": "N Mills Avenue",
+        "country": "United States",
+        "county": "Orange County",
+        "datasource": {
+            "sourcename": "openaddresses",
+            "attribution": "© OpenAddresses contributors",
+            "license": "BSD-3-Clause License"
+        },
+        "postcode": "32803",
+        "state": "Florida",
+        "city": "Orlando",
+        "suburb": "Highland",
+        "lon": -81.364114,
+        "lat": 28.561793,
+        "state_code": "FL",
+        "formatted": "1225 N Mills Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "1225 N Mills Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "popularity": 5.245637195961188,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "510281cea44d5754c0592a1f82aad18f3c40c00203e2034b6f70656e6164647265737365733a616464726573733a75732f666c2f6f72616e67655f636f756e74792d6164647265737365732d636f756e74793a33336135393930643562366237366131"
+    },
+    {
+        "query": {
+            "text": "10 W Illiana St, Orlando, FL 32806",
+            "parsed": {
+                "housenumber": "10",
+                "street": "w illiana st",
+                "postcode": "32806",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32806",
+        "street": "Illiana Street",
+        "housenumber": "10",
+        "lon": -81.37670712336046,
+        "lat": 28.511027508643302,
+        "state_code": "FL",
+        "formatted": "10 Illiana Street, Orlando, FL 32806, United States of America",
+        "address_line1": "10 Illiana Street",
+        "address_line2": "Orlando, FL 32806, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 5.925798947964005,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "5138c031f81b5854c059b6fae4b2d2823c40f00102f9011c53890c00000000c00203"
+    },
+    {
+        "query": {
+            "text": "1300 Alden Rd, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "1300",
+                "street": "alden rd",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Alden Road",
+        "housenumber": "1300",
+        "lon": -81.3732813625735,
+        "lat": 28.561679073099427,
+        "state_code": "FL",
+        "formatted": "1300 Alden Road, Orlando, FL 32803, United States of America",
+        "address_line1": "1300 Alden Road",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.21100000000000002,
+            "popularity": 5.28888318025683,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51681d83d7e35754c05944cf2133ca8f3c40f00102f90197f6aa0000000000c00203"
+    },
+    {
+        "query": {
+            "text": "227 N Eola Dr, Orlando, FL 32801",
+            "parsed": {
+                "housenumber": "227",
+                "street": "n eola dr",
+                "postcode": "32801",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32801",
+        "district": "Thornton Park",
+        "street": "Eola Drive",
+        "housenumber": "227",
+        "lon": -81.36977011700435,
+        "lat": 28.539682741953943,
+        "state_code": "FL",
+        "formatted": "227 Eola Drive, Orlando, FL 32801, United States of America",
+        "address_line1": "227 Eola Drive",
+        "address_line2": "Orlando, FL 32801, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 6.367933166418484,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "5198e44750aa5754c05965e8eea5288a3c40f00102f9011cc8aa0000000000c00203"
+    },
+    {
+        "query": {
+            "text": "610 W Morse Blvd, Winter Park, FL 32789",
+            "parsed": {
+                "housenumber": "610",
+                "street": "w morse blvd",
+                "postcode": "32789",
+                "city": "winter park",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "postcode": "32789",
+        "suburb": "Winter Park",
+        "street": "Morse Boulevard",
+        "housenumber": "610",
+        "lon": -81.3570832,
+        "lat": 28.5975447,
+        "state_code": "FL",
+        "formatted": "610 Morse Boulevard, Winter Park, FL 32789, United States of America",
+        "address_line1": "610 Morse Boulevard",
+        "address_line2": "Winter Park, FL 32789, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.621,
+            "popularity": 4.721773505095662,
+            "confidence": 0.9,
+            "confidence_city_level": 1,
+            "confidence_street_level": 0.9,
+            "match_type": "full_match"
+        },
+        "place_id": "51de7c7e73da5654c059ec6580b0f8983c40f00103f9016e92ae0402000000c00203"
+    },
+    {
+        "query": {
+            "text": "444 N Bumby Ave, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "444",
+                "street": "n bumby ave",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "North Bumby Avenue",
+        "housenumber": "444",
+        "lon": -81.352082625,
+        "lat": 28.549221312500002,
+        "state_code": "FL",
+        "formatted": "444 North Bumby Avenue, Orlando, FL 32803, United States of America",
+        "address_line1": "444 North Bumby Avenue",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.405766054473332,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "5159f78f85885654c059267497c4998c3c40f00102f901dc26580900000000c00203"
+    },
+    {
+        "query": {
+            "text": "3122 E Colonial Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3122",
+                "street": "e colonial dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "East Colonial Drive",
+        "housenumber": "3122",
+        "lon": -81.33781255282786,
+        "lat": 28.553570217363507,
+        "state_code": "FL",
+        "formatted": "3122 East Colonial Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "3122 East Colonial Drive",
+        "address_line2": "Orlando, FL 32803, United States of America",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "building",
+        "rank": {
+            "importance": 0.411,
+            "popularity": 5.067805111658897,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "51bba48ab89e5554c059aa9d1bc7b68d3c40f00102f9015936bb0b00000000c00203"
+    },
+    {
+        "query": {
+            "text": "3000 Corrine Dr, Orlando, FL 32803",
+            "parsed": {
+                "housenumber": "3000",
+                "street": "corrine dr",
+                "postcode": "32803",
+                "city": "orlando",
+                "state": "fl",
+                "expected_type": "building"
+            }
+        },
+        "datasource": {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "name": "Lobos Coffee Roasters",
+        "country": "United States",
+        "country_code": "us",
+        "state": "Florida",
+        "county": "Orange County",
+        "city": "Orlando",
+        "postcode": "32803",
+        "street": "Corrine Drive",
+        "housenumber": "3000",
+        "lon": -81.3457165,
+        "lat": 28.5675344,
+        "state_code": "FL",
+        "formatted": "Lobos Coffee Roasters, 3000 Corrine Drive, Orlando, FL 32803, United States of America",
+        "address_line1": "Lobos Coffee Roasters",
+        "address_line2": "3000 Corrine Drive, Orlando, FL 32803, United States of America",
+        "category": "catering.cafe",
+        "timezone": {
+            "name": "America/New_York",
+            "offset_STD": "-05:00",
+            "offset_STD_seconds": -18000,
+            "offset_DST": "-04:00",
+            "offset_DST_seconds": -14400,
+            "abbreviation_STD": "EST",
+            "abbreviation_DST": "EDT"
+        },
+        "result_type": "amenity",
+        "rank": {
+            "importance": 0.31100000000000005,
+            "popularity": 4.9440301303947525,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "confidence_street_level": 1,
+            "match_type": "inner_part"
+        },
+        "place_id": "51014c1938205654c059e05a37ef49913c40f00103f901d3b44a2b02000000c002019203154c6f626f7320436f6666656520526f617374657273"
+    }
+]
+}
