@@ -1,13 +1,26 @@
 //global variables
+var lonLat = "";
+var link = "";
+
 var requestOptions = {
     method: 'GET',
   };
-  
-  var restaurantNames= [
-  "TakoCheena","Hollerbach's Willow Tree","King Bao","Judy's Diner","Kres Chophouse ","Kobe Japanese Stakehouse","Little Haiti Paté Kode","Bon Appetit Grill","Pho Hoa Noodle Soup (Orlando)","Mark's Jamaican Bar and Grill","Noodles and Rice Cafe","Kelly's Ice Cream","The Glass Knife","Greenery Creamery","Wondermade","1-Up","Mathers Social Gathering","Stardust Cafe","Foxtail Coffee","Hanson's Shoe Repair","se7en Bites","À La Cart","Better Than Sex - A Dessert Bar","Red Eye's Git-n-Messy Smokehouse","Taglish Filipino Handhelds","Gringos Locos","Hangry Dobo","Mahogany Coffee","CREDO","KungFu Tea","Lazy Moon","Krungthep","Bento","Yugiri Ramen Project","The Basin","Oak Flame Pizza","Fuji yama Sushi","Tuffy's Bottle Shop and Lounge","Izziban","Celery City Craft Beer Garden","Sabor del Carribe","Cocktails & Screams","SufferingBastard","Yabi Sushi","Tomasino's Pizza","PomPoms","The Daily Dose","4 Rivers Smokehouse","4 Rivers SweetShop","PhatAsh Bakes","Winter Park Biscuit Company","The Neighbors","Dochi","The Donut Patch","Domu","Gideon's Bakehouse","Farm & Haus","Hinckley's Fancy Meats","General Public House","La Femme du Fromage","Lineage Coffee","Wafu","Skyebird","Strand","Island Fin Poke Company","Hunger Street Tacos","The Ravenous Pig","Fiddler's Green","Purple Ocean Superfood Bar","Beefy King","TORI TORI","Plantees","Black Bean Deli","Mamak Asian Street Food","Pour Choice Taphouse","RockPit Brewing","Ivanhoe Park Brewing Company","Persimmon Hollow Brewing Co","The Coop","Drunken Monkey","Kabooki"];
-  // var restaurantStreetAddresses = ["948 N Mills Ave,","201-205 E 1st St","710 N Mills Ave","5220 Old Winter Garden Rd","17 W Church St","11609 E Colonial Dr","5555 W Colonial Dr suite 501","4534 S Orange Blossom Trl","649 Primrose Dr,","10173 University Blvd","813 N Mills Ave,","3114 Corrine Dr","276 S Orlando Ave","420 E Church St Unit 112","214 E 1st St","25 W Church St","3 Phoenix Building, 30 S Magnolia Ave 3","1842 Winter Park Rd,",""," 27 E Pine St","617 Primrose Dr,","609 Irvington Ave,","1905 N Orange Ave","855 E State Rd 434","212 W 1st St Unit 1070","2406 E Robinson St,","12140 Collegiate Way Suite 105","212 W 1st St","885 N Orange Ave","12098 Collegiate Way","1011 E Colonial Dr,","1051 W Fairbanks Ave","151 S Orange Ave","8 N Summerlin Ave","212 W 1st St Suite A","212 W 1st St","10153 University Blvd"," 200 Myrtle Ave","1700 W Sand Lake Rd D124","114 S Palmetto Ave","3020 Lamberton Blvd #110","39 W Pine St","200 south Myrtle Ave","3755 S Orlando Dr","920 International Pkwy #1016"," 67 N Bumby Ave,","1196 Tree Swallow Dr Unit 1318","11764 University Blvd","1869 W State Rd 434","912 N Mills Ave,","3201 Corrine Dr,","3201 Corrine Dr STE 201,","3201 Corrine Dr,","1333 W Broadway St, Oviedo, FL 32765","3201 Corrine Dr Suite 100,","3201 Corrine Dr,","3201 Corrine Dr Suite 8,","3201 Corrine Dr,","156 Tuskawilla Rd","3201 Corrine Dr #106","1011 E Colonial Dr","3201 Corrine Dr STE 203,","3201 Corrine Dr,"," 807 N Mills Ave,","1450 Tuskawilla Rd #108","426 W Plant St","565 W Fairbanks Ave","544 W Fairbanks Ave","1110 N Mills Ave,","424 N Bumby Ave,","720 N Mills Ave,","1030 N Mills Ave,","1835 E Colonial Dr","1231 E Colonial Dr","1225 N Mills Ave","10 W Illiana St 32806","1300 Alden Rd","227 N Eola Dr","610 W Morse Blvd","444 N Bumby Ave","3122 E Colonial Dr"];
-  // not done yet. need to do some research as to what is the necessary format for this
+  var restaurantRequestOptions = {
+    method: 'GET',
+    headers:{
+      'Content-Type':'application/JSON',
+      'Accept':'application/JSON'
+    }
+    
+  };
 
+  const getThings = async () => {
+  const res = await fetch("./assets/JSON/restaurants.JSON", restaurantRequestOptions);
+  const places = res.json();
+  console.log(places);
+  };
+
+  getThings();
 
   //click function for submit button with user's criteria
 
@@ -34,34 +47,65 @@ var requestOptions = {
     
     // Logic for Map tool from Geoapify
     
-    //variable for lat/lon of user's location input 
-    var latLon;
-    //variable for static map, before user input, centered on Orlando
-    var staticMapUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&center=lonlat:28.5384,81.3789";
+    //variable for static map, before user input, centered on Central Florida
+    var staticMapUrl = "https://maps.geoapify.com/v1/staticmap?style=osm-liberty&width=571&height=473&center=lonlat:-81.421539,28.641699&zoom=9.5577&marker=lonlat:-122.307060209015,47.526340765976215;color:%23ff0000;size:medium&apiKey=51c9b31a24364a49b55fcecffd8cb687";
     
-    var barMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%23a82ecc;size:large;icon:glass-martini";
-    //string value for bar marker just in case: type:awesome;color:%23a82ecc;size:large;icon:glass-martini
-    var restaurantMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%23da291c;size:large;icon:utensils";
-    //string value for restaurant marker just in case: type:awesome;color:%23da291c;size:large;icon:utensils
+    //variable for markers 
+    var barMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%23a82ecc;size:large;icon:glass-martini";
+    
+    var restaurantMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%23da291c;size:large;icon:utensils";
+   
+    var coffeeMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%2300704a;size:large;icon:coffee";   
+   
+    var userMarker = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%2317f4f9;icon:hippo"
 
-    var coffeeMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%2300704a;size:large;icon:coffee";   
-    //string value for coffee shop marker just in case: type:awesome;color:%2300704a;size:large;icon:coffee
+  function createLink() {
+    link = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:-82.4427663,29.3777872;type:awesome;color:%2317f4f9;icon:hippo";
 
-    //fetch(staticMapApiURL)
+    array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:hippo")
 
-
-    //Logic for grabbing user's current location from Leaflet
-
+    //for loop probably
+  }
+//as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
 
     //Function to show results location on map
-
+  //fetch(staticMapUrl)
+    fetch(link)
+      .then(function(response){
+        console.log(response);
+        return response.json()
+      })
+      .then(function(data){
+        console.log(data);
+      })
 
     //Function to 
 
     //Click function for user's suggestion button 
-var suggestionButton = document.getElementById("email-support");
-var userSuggestionInput = 
+var suggestionButton = document.getElementById("send-btn");
 suggestionButton.addEventListener("click", function(){
-//tailwind form stuff
+  var userSuggestionInput = {
+    name: exampleInput7.value,
+    email: exampleInput8.value,
+    message: exampleFormControlTextarea13.value
+  }
+  localStorage.setItem("form input", JSON.stringify(userSuggestionInput));
 });
 
+// geolocation information 
+
+let locationbtn = document.getElementById("locateme");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    console.log("Location Error")
+  }
+}
+
+function showPosition(position) {
+console.log("Latitude: " + position.coords.latitude + 
+  "    Longitude: " + position.coords.longitude);
+  lonLat = position.coords.longitude + "," + position.coords.latitude;
+}

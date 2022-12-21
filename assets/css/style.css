@@ -6,9 +6,10 @@ body{
 header {
   text-align: center;
   background-color: purple;
-  margin-top: -6rem;
   font-size: 2rem;
+  display: flex;
 }
+
 
 #logo {
   display: flex;
@@ -83,8 +84,6 @@ header {
     clear: both;
   }
 
-
-  
 .main-section {
   width: 100%;
   display: flex;
@@ -94,6 +93,17 @@ header {
   .filtered-choices {
     width: 15%;
     background-color: pink;
+  }
+
+  #heading {
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+
+  .choices {
+    margin-left: 1rem;
+    line-height: 8rem;
+    font-weight: bold;
   }
 
 /* Map section */
@@ -117,13 +127,14 @@ footer {
     margin: 0;
 }
 
- #form { 
-  display: block;
-}
+
 
 .dropbtn {
     background-color: #3498DB;
     color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    margin-top: -0.5rem;
 
   }
   
@@ -140,6 +151,7 @@ footer {
     min-width: 160px;
     bottom: 50px;
     z-index: 1;
+    border: 1rem;
   }
   
   .dropup-content a {
