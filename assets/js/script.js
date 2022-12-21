@@ -1,4 +1,7 @@
 //global variables
+var lonLat = "";
+var link = "";
+
 var requestOptions = {
     method: 'GET',
   };
@@ -34,33 +37,37 @@ var requestOptions = {
     
     // Logic for Map tool from Geoapify
     
-    //variable for lat/lon of user's location input 
-    var latLon;
-    //variable for static map, before user input, centered on Orlando
-    var staticMapUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&center=lonlat:28.5384,81.3789";
+    //variable for static map, before user input, centered on Central Florida
+    var staticMapUrl = "https://maps.geoapify.com/v1/staticmap?style=osm-liberty&width=571&height=473&center=lonlat:-81.421539,28.641699&zoom=9.5577&marker=lonlat:-122.307060209015,47.526340765976215;color:%23ff0000;size:medium&apiKey=51c9b31a24364a49b55fcecffd8cb687";
     
     //variable for markers 
-    var barMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%23a82ecc;size:large;icon:glass-martini";
+    var barMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%23a82ecc;size:large;icon:glass-martini";
     
-    var restaurantMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%23da291c;size:large;icon:utensils";
+    var restaurantMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%23da291c;size:large;icon:utensils";
    
-    var coffeeMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%2300704a;size:large;icon:coffee";   
+    var coffeeMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%2300704a;size:large;icon:coffee";   
    
-    var userMarker = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%2317f4f9;icon:hippo";
+    var userMarker = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%2317f4f9;icon:hippo"
 
-    //fetch(staticMapApiURL)
-    // fetch(staticMapUrl)
-    //   .then(function(response){
-    //     console.log(response);
-    //     return response.json()
-    //   })
-    //   .then(function(data){
-    //     console.log(data);
+  function createLink() {
+    link = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:-82.4427663,29.3777872;type:awesome;color:%2317f4f9;icon:hippo";
 
-    //   })
+    array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:hippo")
+
+    //for loop probably
+  }
+//as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
 
     //Function to show results location on map
-
+  //fetch(staticMapUrl)
+    fetch(link)
+      .then(function(response){
+        console.log(response);
+        return response.json()
+      })
+      .then(function(data){
+        console.log(data);
+      })
 
     //Function to 
 
@@ -90,4 +97,5 @@ function getLocation() {
 function showPosition(position) {
 console.log("Latitude: " + position.coords.latitude + 
   "    Longitude: " + position.coords.longitude);
+  lonLat = position.coords.longitude + "," + position.coords.latitude;
 }
