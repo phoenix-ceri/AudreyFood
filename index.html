@@ -27,18 +27,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="h-full w-full">
     <header>
             <img id="logo" src="https://media.discordapp.net/attachments/1050566682176925808/1052779088361820261/Beige_Aesthetic_Minimalist_Badge_Circle_Animated_Logo_1.gif" alt="project-logo"> 
-            <h1>Foodie Central</h1>
-            <h2>Central Florida Locations!</h2>
+            <div id="header-title">
+                <h1 id="company-title">Foodie Central</h1>
+                <h2 id="company-subtitle">Central Florida Locations!</h2>
+            </div>
     </header>
 
     <main>
             <nav class="nav-links">
                 <div class="dropdwn-links">
                     <ul class="dropdown-section">
-                      <li><a class="dropdown-title" href="#">Business Type</a>
+                      <li><a class="dropdown-title ml-4" href="#">Business Type</a>
                         <ul class="dropdown-list">
                             <li id="test">
                                 <input  type="checkbox" value="" id="flexCheckDefault">
@@ -70,42 +72,51 @@
                             </li>
                         </ul>
                       </li>
-                      <button class="bg-blue-500 px-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                      <button id="selected-choices" class="bg-blue-500 px-5 mt-2 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Submit
                       </button>
 
-                      <button type="button"
-                      class="inline-block px-5 py-2.5 bg-blue-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out "
-                      data-bs-toggle="modal" data-bs-target="#geolocation">
-                      <i class="fas fa-map-marker-alt"></i>
-                  </button>
-                  <!-- Modal & Form -->
-                  
-                  <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
-                      id="geolocation" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                      aria-labelledby="geolocationLabel" aria-hidden="true">
-                      <div class="modal-dialog relative w-auto pointer-events-none">
-                          <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
-                              <div class="modal-body relative p-4">
-                                  <div class="p-6 text-center">
-                                      <form id="form">
-                                        <svg aria-hidden="true" class="mx-auto mb-4 text-gray-400 w-14 h-14 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                        <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Would you like to share your current location?</h3>
-                                        <button data-modal-toggle="popup-modal" type="button" class=" text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
-                                            Yes, I'm sure
-                                        </button>
-                                        <button data-modal-toggle="popup-modal" type="button" class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2" data-bs-dismiss="modal">No, cancel</button>
-                                      </form>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                      <div class="geolocation">
+                        <button type="button"
+                        class="inline-block px-5 py-3 bg-blue-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out "
+                        data-bs-toggle="modal" data-bs-target="#geolocation">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </button>
 
-                      
-      
+
+                      <form class="city-search">   
+                        <label for="default-search" class="text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                        <div class="relative">
+                            <div class="relative pointer-events-none">
+                            </div>
+                            <input type="search" id="default-search" class="p-1 pl-1 text-m text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search a city..." required>
+                            <button type="submit" class="ablosute text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                        </div>
+                      </form>
+                     <!-- Modal & Form -->
+                    
+                     <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                        id="geolocation" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="geolocationLabel" aria-hidden="true">
+                        <div class="modal-dialog relative w-auto pointer-events-none">
+                            <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                                <div class="modal-body relative p-4">
+                                    <div class="p-6 text-center">
+                                        <form id="form">
+                                          <svg aria-hidden="true" class="mx-auto mb-4 text-gray-400 w-14 h-14 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                          <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Would you like to share your current location?</h3>
+                                          <button data-modal-toggle="popup-modal" type="button" class=" text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                                              Yes, I'm sure
+                                          </button>
+                                          <button data-modal-toggle="popup-modal" type="button" class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2" data-bs-dismiss="modal">No, cancel</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </ul>
-                    <div>
-                </div>
+                <div>
+            </div>
                 
             </nav>
             <div class="main-section">
@@ -177,7 +188,7 @@
                                       ease-in-out
                                       m-0
                                       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                            id="exampleInput7" placeholder="Name">
+                                            id="exampleInput7" placeholder="Business name">
                                     </div>
                                     <div class="form-group mb-6">
                                         <input type="email" class="form-control block
@@ -194,7 +205,7 @@
                                       ease-in-out
                                       m-0
                                       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                            id="exampleInput8" placeholder="Email address">
+                                            id="exampleInput8" placeholder="Business Type">
                                     </div>
                                     <div class="form-group mb-6">
                                         <textarea class="
@@ -213,7 +224,7 @@
                                       ease-in-out
                                       m-0
                                       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-                                    " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+                                    " id="exampleFormControlTextarea13" rows="3" placeholder="Cuisine"></textarea>
                                     </div>
                                     <button type="submit" class="
                                     w-full
@@ -247,12 +258,10 @@
             </div>
             
         </div>
+
+
+        
 </footer>
-   <!-- <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-    crossorigin=""></script>-->
-    <button onclick="getLocation()">Get my Location</button>
-        <p id="locateme"></p>
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </html>
