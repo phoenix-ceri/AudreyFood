@@ -10,7 +10,12 @@ header {
   font-size: 2rem;
 }
 
-
+#logo {
+  display: flex;
+  height: 9rem;
+  position: relative;
+  top: 6rem;
+}
 
 .nav-links {
     display: flow-root;
