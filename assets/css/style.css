@@ -6,8 +6,8 @@ body{
 header {
   text-align: center;
   background-color: purple;
+  margin-top: -6rem;
   font-size: 2rem;
-  display: flex;
 }
 
 #logo {
@@ -106,18 +106,18 @@ header {
   }
 
 /* Map section */
-    .map-container {
-        width: 100%;
-        text-align: center;
-        background-color: lightgreen;
-        height: 35rem;
-    }
+.map-container {
+  width: 100%;
+  text-align: center;
+  background-color: lightgreen;
+  height: 35rem;
+}
 
-    #user-submision {
-        text-align: center;
-        background-color: pink;
-        width: 10%;
-    }
+#user-submision {
+    text-align: center;
+    background-color: pink;
+    width: 10%;
+}
 
 
 footer {
@@ -170,4 +170,22 @@ footer {
     background-color: #2980B9;
   }
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
+  .map-container{
+  width: 100%;
+  } 
+}
+
+@media screen and (max-width: 786px) {
+  .map-container{
+  width: 100%;
+  } 
+}
+
+@media screen and (max-width: 600) {
+  .map-container{
+  width: 120%;
+
+  } 
+}
+
