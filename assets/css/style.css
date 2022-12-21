@@ -21,9 +21,8 @@ header {
   border-radius: 50%;
 }
 
-#company-title {
-  font-size: 3.5rem;
-  font-weight: bolder;
+img {
+  height: 10rem;
 }
 
 .nav-links {
