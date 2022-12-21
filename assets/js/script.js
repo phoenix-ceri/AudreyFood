@@ -39,19 +39,25 @@ var requestOptions = {
     //variable for static map, before user input, centered on Orlando
     var staticMapUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&center=lonlat:28.5384,81.3789";
     
+    //variable for markers 
     var barMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%23a82ecc;size:large;icon:glass-martini";
-    //string value for bar marker just in case: type:awesome;color:%23a82ecc;size:large;icon:glass-martini
+    
     var restaurantMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%23da291c;size:large;icon:utensils";
-    //string value for restaurant marker just in case: type:awesome;color:%23da291c;size:large;icon:utensils
-
+   
     var coffeeMarkerUrl = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%2300704a;size:large;icon:coffee";   
-    //string value for coffee shop marker just in case: type:awesome;color:%2300704a;size:large;icon:coffee
+   
+    var userMarker = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=" + latLon + "type:awesome;color:%2317f4f9;icon:hippo";
 
     //fetch(staticMapApiURL)
+    // fetch(staticMapUrl)
+    //   .then(function(response){
+    //     console.log(response);
+    //     return response.json()
+    //   })
+    //   .then(function(data){
+    //     console.log(data);
 
-
-    //Logic for grabbing user's current location from Leaflet
-
+    //   })
 
     //Function to show results location on map
 
@@ -59,10 +65,14 @@ var requestOptions = {
     //Function to 
 
     //Click function for user's suggestion button 
-var suggestionButton = document.getElementById("email-support");
-var userSuggestionInput = 
+var suggestionButton = document.getElementById("send-btn");
 suggestionButton.addEventListener("click", function(){
-//tailwind form stuff
+  var userSuggestionInput = {
+    name: exampleInput7.value,
+    email: exampleInput8.value,
+    message: exampleFormControlTextarea13.value
+  }
+  localStorage.setItem("form input", JSON.stringify(userSuggestionInput));
 });
 
 // geolocation information 
