@@ -27,7 +27,7 @@ After After This Our Map Will Show What Food Matches The Specified Criteria With
 ## Credits
 Eva Perez - Lead Logic And Co-Project Manager
 <br />
-Kelly Flinn - Lead Back End Logic Engineer
+Kelley Flinn - Lead Back End Logic Engineer
 <br />
 Brandon Tai -Assistant Front End And Design
 <br />
