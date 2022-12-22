@@ -59,13 +59,22 @@ var requestOptions = {
    
     var userMarker = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%2317f4f9;icon:hippo"
 
+    queryParamsLink = `https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + ${lonLat} + ";type:awesome;color:%2317f4f9;icon:${iconVar}`
+    var iconVar = 
+
   function createLink() {
-    link = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:"+ lonLat +";type:awesome;color:%2317f4f9;icon:hippo";
+    link = `https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:"+ lonLat +";type:awesome;color:%2317f4f9;icon:${iconVar}`;
 
     array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:hippo")
 
     //for loop probably
   }
+  fetch(placesURLEndpoint)
+  .then(response => response.json())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+  placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&filter=rect:-81.421539,28.641699&limit=20&apiKey=YOUR_API_KEY`
+
 //as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
 
     //Function to show results location on map
