@@ -1,3 +1,8 @@
+// Local Time
+var currentDate = moment().format('LLLL');
+$('#date').text(currentDate);
+
+
 //global variables
 var lonLat = "";
 var link = "";

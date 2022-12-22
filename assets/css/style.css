@@ -16,7 +16,6 @@ header {
 #header-title {
   text-align: center;
   width: 80%;
-  margin-top: 2.5rem;
 }
 
 #company-title {
@@ -36,7 +35,7 @@ img {
 
   .dropdown-title, a {
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: x-large;
     font-weight: bold;
   }
@@ -44,7 +43,7 @@ img {
   .dropdwn-links ul {
     background: skyblue;
     list-style: none;
-    padding: 1.2rem;
+    padding: 1.5rem;
   }
   
   .dropdwn-links ul li {
@@ -106,6 +105,13 @@ img {
     float: right;
     margin-right: 0.5rem;
   }
+
+  #geolocation-btn {
+    margin: 1.3rem;
+    color: darkgreen;
+  }
+
+
   #default-search {
     width: 25rem;
     margin-top: 0.5rem;
@@ -183,16 +189,15 @@ footer {
     position: relative;
     display: inline;
     float: right;
+    margin-right: 1rem ;
   }
   
   .dropup-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
     bottom: 50px;
     z-index: 1;
-    border: 1rem;
   }
   
   .dropup-content a {
@@ -200,10 +205,12 @@ footer {
     text-decoration: none;
     display: block;
     background-color: skyblue;
+    font-size: smaller;
   }
   
   .dropup-content a:hover {
     background-color: lightblue;
+    color: black;
   }
   
   .dropup:hover .dropup-content {
