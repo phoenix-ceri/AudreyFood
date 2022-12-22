@@ -158,7 +158,11 @@ img {
         width: 10%;
     }
 
-
+#user-submision {
+    text-align: center;
+    background-color: pink;
+    width: 10%;
+}
 
 footer {
     padding: 15px;
