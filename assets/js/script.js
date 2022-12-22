@@ -28,6 +28,25 @@ var requestOptions = {
   };
 
   getThings();
+  // geolocation information 
+
+let locationbtn = document.getElementById("locateme");
+
+locationbtn.addEventListener("click", function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    document.getElementById("map").style.visibility = "hidden";
+  } else { 
+    console.log("We Cant See You!!")
+  } return;
+});
+
+function showPosition(position) {
+console.log("Latitude: " + position.coords.latitude + 
+  "    Longitude: " + position.coords.longitude);
+  lonLat = position.coords.longitude + "," + position.coords.latitude;
+}
+
 
   //click function for submit button with user's criteria
   var searchButton = document.getElementById("search-btn");
@@ -69,11 +88,11 @@ var requestOptions = {
 
     //for loop probably
   }
-  fetch(placesURLEndpoint)
-  .then(response => response.json())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
-  placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apikey}`
+  //fetch(placesURLEndpoint)
+  //.then(response => response.json())
+  //.then(result => console.log(result))
+ // .catch(error => console.log('error', error));
+ // placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apikey}`
 
 //as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
 
@@ -101,21 +120,3 @@ suggestionButton.addEventListener("click", function(){
   localStorage.setItem("form input", JSON.stringify(userSuggestionInput));
 });
 
-// geolocation information 
-
-let locationbtn = document.getElementById("locateme");
-
-locationbtn.addEventListener("click", function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-    document.getElementById("map").style.visibility = "hidden";
-  } else { 
-    console.log("We Cant See You!!")
-  } return;
-});
-
-function showPosition(position) {
-console.log("Latitude: " + position.coords.latitude + 
-  "    Longitude: " + position.coords.longitude);
-  lonLat = position.coords.longitude + "," + position.coords.latitude;
-}
