@@ -60,7 +60,7 @@ var requestOptions = {
     var userMarker = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:" + lonLat + ";type:awesome;color:%2317f4f9;icon:hippo"
 
   function createLink() {
-    link = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:-82.4427663,29.3777872;type:awesome;color:%2317f4f9;icon:hippo";
+    link = "https://maps.geoapify.com/v1/staticmap?apiKey=51c9b31a24364a49b55fcecffd8cb687&style=osm-liberty&marker=lonlat:"+ lonLat +";type:awesome;color:%2317f4f9;icon:hippo";
 
     array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:hippo")
 
@@ -96,13 +96,13 @@ suggestionButton.addEventListener("click", function(){
 
 let locationbtn = document.getElementById("locateme");
 
-function getLocation() {
+locationbtn.addEventListener("click", function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else { 
     console.log("Location Error")
-  }
-}
+  } return;
+});
 
 function showPosition(position) {
 console.log("Latitude: " + position.coords.latitude + 
