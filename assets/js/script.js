@@ -108,7 +108,7 @@ let locationbtn = document.getElementById("locateme");
 locationbtn.addEventListener("click", function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
-    document.getElementById("map").style.visibility = "hidden"
+    document.getElementById("map").style.visibility = "hidden";
   } else { 
     console.log("We Cant See You!!")
   } return;
