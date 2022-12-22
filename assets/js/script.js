@@ -1,3 +1,8 @@
+// Local Time
+var currentDate = moment().format('LLLL');
+$('#date').text(currentDate);
+
+
 //global variables
 var lonLat = "";
 var link = "";
@@ -23,20 +28,13 @@ var requestOptions = {
   getThings();
 
   //click function for submit button with user's criteria
+  var searchButton = document.getElementById("search-btn");
+  searchButton.addEventListener("click", function(){
 
+  });
 
-  //function to render user's selection from local storage
-// function renderUserSelection () {
-//   var storedUserData = localStorage.getItem("name of key");
+  //function to plot user location marker on map
 
-//   if (!storedUserData) {
-//       return;
-//   } else if (storedUserData !== null) {
-//     document.querySelector(".class of what I need")
-//     I need more stuff
-//   }
-// }
-// }
   
   //GeoApify Places API fetch 
   fetch("https://api.geoapify.com/v1/geocode/autocomplete?text=Mosco&apiKey=51c9b31a24364a49b55fcecffd8cb687", requestOptions)

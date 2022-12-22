@@ -31,7 +31,8 @@
             <img id="logo" src="https://media.discordapp.net/attachments/1050566682176925808/1052779088361820261/Beige_Aesthetic_Minimalist_Badge_Circle_Animated_Logo_1.gif" alt="project-logo"> 
             <div id="header-title">
                 <h1 id="company-title">FOODIE CENTRAL</h1>
-                <h2 id="company-subtitle">Central Florida Locations!</h2>
+                <h2 id="company-subtitle">Central Florida Local Time:</h2>
+                <h5 id="date" class="font-bold font-small"></h5>
             </div>
     </header>
 
@@ -39,16 +40,21 @@
             <nav class="nav-links">
                 <div class="dropdwn-links">
                     <ul class="dropdown-section">
-                      <li><a class="dropdown-title ml-4" href="#">Business Type</a>
+                      <li><a class="dropdown-title ml-4 " href="#">Business Type</a>
                         <ul class="dropdown-list">
                             <li id="restaurantCheckbox">
                                 <input  type="checkbox" value="" id="flexCheckDefault">
+
                                 <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
                                     <a href="#">Restaurants</a>
                                 </label>
+
+                                <label for="restaurant">Restaurant</label>
+
                             </li>
                             <li id="barCheckbox">
                                 <input  type="checkbox" value="" id="flexCheckDefault">
+
                                 <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
                                     <a href="#">Bars</a>
                                 </label>
@@ -58,44 +64,144 @@
                                 <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
                                     <a href="#">Choffee Shops</a>
                                 </label>
+
+                                <label for="Bar">Bar</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Coffee Shop">Coffee Shop</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Tea Shop">Tea Shop</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Sandwhiches">Sandwhiches</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Ice Cream">Ice Cream</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Pizza">Pizza</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Backery">Backery</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="" id="flexCheckDefault">
+                                <label for="Food Tuck">Food Tuck</label>
+
                             </li>
                         </ul>
+                        <li><span class="text-white-500 mx-1">/</span></li>
                         </li>
                         <li><a class="dropdown-title" href="#">Cuisine</a>
                         <ul class="dropdown-list">
                             <li id="test">
-                                <input  type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
-                                    <a href="#">Sub-1</a>
-                                </label>
+                                <input  type="checkbox" value="American" id="flexCheckDefault">
+                                <label for="American">American</label>
                             </li>
                             <li id="test">
-                                <input  type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
-                                    <a href="#">Sub-2</a>
-                                </label>
+                                <input  type="checkbox" value="Haitian" id="flexCheckDefault">
+                                <label for="Haitian">Haitian</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Asian" id="flexCheckDefault">
+                                <label for="Asian">Asian</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Chineese" id="flexCheckDefault">
+                                <label for="Chineese">Chineese</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Japanese" id="flexCheckDefault">
+                                <label for="Japanese">Japanese</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Mexican" id="flexCheckDefault">
+                                <label for="Mexican">Mexican</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Cuban" id="flexCheckDefault">
+                                <label for="Cuban">Cuban</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Latain" id="flexCheckDefault">
+                                <label for="Latain">Latain</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="German" id="flexCheckDefault">
+                                <label for="German">German</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Vegan" id="flexCheckDefault">
+                                <label for="Vegan">Vegan</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Rooftop" id="flexCheckDefault">
+                                <label for="Rooftop">Rooftop</label>
+                            </li>
+                        </ul>
+                        <li><span class="text-white-500 mx-1">/</span></li>
+                      </li>
+                      <li><a class="dropdown-title" href="#">Meal Type</a>
+                        <ul class="dropdown-list">
+                            <li id="test">
+                                <input  type="checkbox" value="Breakfast" id="flexCheckDefault">
+                                <label for="Breakfast">Breakfast</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Brunch" id="flexCheckDefault">
+                                <label for="Brunch">Brunch</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Lunch" id="flexCheckDefault">
+                                <label for="Lunch">Lunch</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Dinner" id="flexCheckDefault">
+                                <label for="Dinner">Dinner</label>
+                            </li>
+                            <li id="test">
+                                <input  type="checkbox" value="Barbacue" id="flexCheckDefault">
+                                <label for="Barbacue">Barbacue</label>
+                            </li>
+
+                            <li id="test">
+                                <input  type="checkbox" value="Habachi" id="flexCheckDefault">
+                                <label for="Habachi">Habachi</label>
+                            </li>
+
+                            <li id="test">
+                                <input  type="checkbox" value="Dessert" id="flexCheckDefault">
+                                <label for="Dessert">Dessert</label>
                             </li>
                         </ul>
                       </li>
-                      <button id="selected-choices" class="bg-blue-500 px-5 mt-2 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+
+                      <button id="selected-choices" class="bg-blue-500 relative mt-1 ml-4 hover:bg-blue-700 text-white font-bold font-large px-6 py-4  rounded-full">
                         Submit
                         </button>
 
                       <div class="geolocation">
-                        <button type="button"
-                        class="inline-block px-5 py-3 bg-blue-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out "
+                        <button id="geolocation-btn" class="city-search" type="button"
+                        class="inline-block px-5 py-1 px-1 bg-blue-500 text-white font-bold font-small text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out "
                         data-bs-toggle="modal" data-bs-target="#geolocation">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fa-solid fa-map-location-dot"></i>
                       </button>
 
 
                       <form class="city-search">   
-                        <label for="default-search" class="text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                        <label for="default-search" class="text-sm font-Large text-gray-900 sr-only dark:text-white">Search</label>
                         <div class="relative">
                             <div class="relative pointer-events-none">
                             </div>
-                            <input type="search" id="default-search" class="p-1 pl-1 text-m text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search a city..." required>
-                            <button type="submit" class="ablosute text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                            <input type="search" id="default-search" class="p-3 pl-2 text-m text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search a city...." required>
+                            <button id="search-btn" type="submit" class="relative text-white font-medium bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                         </div>
                       </form>
                      <!-- Modal & Form -->
@@ -109,7 +215,7 @@
                                     <div class="p-6 text-center">
                                         <form id="form">
                                           <svg aria-hidden="true" class="mx-auto mb-4 text-gray-400 w-14 h-14 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                          <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Would you like to share your current location?</h3>
+                                          <h3 class="mb-5 text-lg font-large font-bold text-gray-500 dark:text-gray-400">Would you like to share your current location?</h3>
                                           <button id= "locateme" data-bs-dismiss="modal" data-modal-toggle="popup-modal" type="button" class=" text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
                                               Yes, I'm sure
                                           </button>
@@ -136,6 +242,7 @@
                     <ul class="choices">
                         <li>Business Type</li>
                         <li>Cuisine</li>
+                        <li>Meal Type</li>
                     </ul>
                 </div>
             </div>
@@ -145,9 +252,9 @@
 <footer>
         <div>
             <div class="dropup">
-                <button id="customer-support" class="dropbtn rounded text-white font-bold bg-blue-500 hover:bg-blue-700" >Customer Support</button>
+                <button id="customer-support" class="dropbtn rounded-full text-white font-bold bg-blue-500 hover:bg-blue-700" ><i class="fas fa-headset"> Support</i></button>
                     <div class="dropup-content">
-                        <a href="tel:3215551111">Lead Frontend Engineer 📞(321)-555-1111</a>
+                        <a href="tel:3215551111">Lead Frontend Engineer 📞(321)-555-2323</a>
                         <hr class="dropdown-divider">
                         <a href="tel:3215552222">Lead Backend Engineer 📞(321)-555-2222</a>
                         <hr class="dropdown-divider">
@@ -156,7 +263,7 @@
             </div>
             <div class="control">
                 <button type="button"
-                class="inline-block px-5 py-2.5 bg-blue-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-4  bg-blue-500 text-white font-large text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                 data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Send Us Your Shops
             </button>
@@ -167,7 +274,7 @@
                 <div class="modal-dialog relative w-auto pointer-events-none">
                     <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
                         <div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
-                            <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalLabel">
+                            <h5 class="text-xl font-bold text-center font-large ml-24 leading-normal text-gray-800" id="exampleModalLabel">
                                 Don't See your Mom & Pop Shop? <br>Let Us Know!
                             </h5>
                             <button type="button"
@@ -213,9 +320,15 @@
                                                 m-0
                                                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
                                                   <option selected>Business Type</option>
-                                                  <option value="1">One</option>
-                                                  <option value="2">Two</option>
-                                                  <option value="3">Three</option>
+                                                  <option value="1">Restaurant</option>
+                                                  <option value="2">Bar</option>
+                                                  <option value="3">Coffee Shop</option>
+                                                  <option value="1">Tea Shop</option>
+                                                  <option value="1">Sandwhiches</option>
+                                                  <option value="2">Ice Cream</option>
+                                                  <option value="3">Pizza</option>
+                                                  <option value="1">Backery</option>
+                                                  <option value="3">Food Tuck</option>
                                               </select>
                                             </div>
                                           </div>                                    <div class="form-group mb-6">
@@ -238,9 +351,17 @@
                                                         m-0
                                                         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
                                                           <option selected>Cuisine</option>
-                                                          <option value="1">One</option>
-                                                          <option value="2">Two</option>
-                                                          <option value="3">Three</option>
+                                                          <option value="1">American</option>
+                                                          <option value="2">Haitian</option>
+                                                          <option value="3">Asian</option>
+                                                          <option value="1">Chineese</option>
+                                                          <option value="2">Japanese</option>
+                                                          <option value="3">Mexican</option>
+                                                          <option value="1">Cuban</option>
+                                                          <option value="2">Latain</option>
+                                                          <option value="3">German</option>
+                                                          <option value="1">Vegan</option>
+                                                          <option value="2">Rooftop</option>
                                                       </select>
                                                     </div>
                                                   </div>                                    <div class="form-group mb-6">
@@ -280,6 +401,8 @@
 
         
 </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </html>
