@@ -25,15 +25,15 @@ After After This Our Map Will Show What Food Matches The Specified Criteria With
 <br />
 
 ## Credits
-Eva Perez - Lead Logic And Co-Project Manager
+Eva Perez - Lead Logic And Co-Project Manager, QA
 <br />
-Kelley Flinn - Lead Back End Logic Engineer
+Kelley Flinn - Lead Back End Logic Engineer, QA
 <br />
 Brandon Tai -Assistant Front End And Design
 <br />
 Jeff Zulma- Lead Front End And Design
 <br />
-Phoenix Powell- Lead Project Manager, Lead API Engineer, Logic Assistant
+Phoenix Powell- Lead Project Manager, API Implementaion, Logic Assistant, QA
 <br />
 <br />
 APIs Used 
