@@ -139,6 +139,7 @@ img {
     font-weight: bold;
   }
 
+
 /* Map section */
     .map-container {
         width: 100%;
@@ -151,12 +152,18 @@ img {
     }
 
 
+    #user-submision {
+        text-align: center;
+        background-color: pink;
+        width: 10%;
+    }
+=========
+
 #user-submision {
     text-align: center;
     background-color: pink;
     width: 10%;
 }
-
 
 footer {
     padding: 15px;
