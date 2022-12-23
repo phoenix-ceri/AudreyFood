@@ -35,11 +35,11 @@ img {
 nav {
   background-color: skyblue;
   padding: 1rem;
+  display: flex;
 }
 
   .dropdown-title, a {
     text-decoration: none;
-    padding: 0.5rem;
     font-size: x-large;
     font-weight: bold;
   }
@@ -48,36 +48,32 @@ nav {
     background: skyblue;
     list-style: none;
   }
+
+  .dropdwn-links .dropdown-section {
+    display: flex;
+  }
   
   .dropdwn-links ul li {
     font-weight: bold;
     color: #fff;
     display: block;
-    float: left;
     padding: 1rem;
-    position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
   }
     
   .dropdwn-links ul li a {
     color: #fff;
-    margin: 1.5rem;
   }
   
-  .dropdwn-links ul li:hover {
-    background: lightblue;
-    cursor: pointer;
-  }
+
   
   .dropdwn-links ul li ul {
     visibility: hidden;
-    position: absolute;
+    position: relative;
     transition: all 0.2s ease;
     margin-top: 1rem;
-    left: 0;
-    width: 100%;
-    padding: 0%;
+    width: fit-content;
     display: none;
   }
 
@@ -89,15 +85,15 @@ nav {
   .dropdwn-links ul li:hover > ul,
   .dropdwn-links ul li ul:hover {
     visibility: visible;
-    opacity: 1;
+    opacity: 2;
     display: block;
 
   }
   
   .dropdwn-links ul li ul li {
     clear: both;
-    padding: 8%;
   }
+
 
   .geolocation {
     display: inline;
@@ -106,7 +102,6 @@ nav {
   .city-search {
     position: relative;
     display: inline-flex;
-    float: right;
     margin-right: 0.5rem;
   }
 
@@ -166,12 +161,6 @@ nav {
         background-color: pink;
         width: 10%;
     }
-
-#user-submision {
-    text-align: center;
-    background-color: pink;
-    width: 15%;
-}
 
 footer {
     padding: 15px;
