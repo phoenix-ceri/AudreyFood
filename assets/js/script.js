@@ -84,28 +84,45 @@ console.log("Latitude: " + position.coords.latitude +
   function createLink() {
     link = `https://maps.geoapify.com/v1/staticmap?apiKey=${apikey}&style=osm-liberty&marker=lonlat:${lonLat};type:awesome;color:%2317f4f9;icon:${iconVar}`;
 
-    array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:hippo")
+    array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:" + iconVar)
     //for loop probably
   }
-  //fetch(placesURLEndpoint)
-  //.then(response => response.json())
-  //.then(result => console.log(result))
- // .catch(error => console.log('error', error));
- // placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apikey}`
+  fetch(placesURLEndpoint, requestOptions)
+  .then(response => response.json())
+  .then(result => console.log(result))
+ .catch(error => console.log('error', error));
+ placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&conditions=${conditions}&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apikey}`;
 
-  var apiKey= "51c9b31a24364a49b55fcecffd8cb687"
+ fetch(placesURLEndpoint).then(function (response) {
+  return response.json() //conversion of raw data
+}).then(function (data) {
+  renderFiveDayResults(data);
+  fetchCurrentWeather(data.city.coord.lat, data.city.coord.lon);
+  renderHistory();
+})
+renderMapQueryResults(data);
+showPosition(position.coords.longitude,position.coords.latitude);
+renderFilteredResults();
+
+function renderMapQueryResults(resultObj){
+  for (let i = 0; i < resultObj.length; i++) {
+  
+}
+}
+
+var apiKey= "51c9b31a24364a49b55fcecffd8cb687"
 //as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
 
     //Function to show results location on map
   //fetch(staticMapUrl)
-    fetch(link)
-      .then(function(response){
-        console.log(response);
-        return response.json()
-      })
-      .then(function(data){
-        console.log(data);
-      })
+    // fetch(link)
+    //   .then(function(response){
+    //     console.log(response);
+    //     return response.json()
+    //   })
+    //   .then(function(data){
+    //     console.log(data);
+    //   })
 
     //Function to 
 
