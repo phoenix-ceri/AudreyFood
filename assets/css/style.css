@@ -36,6 +36,7 @@ nav {
   background-color: skyblue;
   padding: 1rem;
   display: flex;
+  width: 100%;
 }
 
   .dropdown-title, a {
@@ -52,6 +53,8 @@ nav {
   .dropdwn-links .dropdown-section {
     display: flex;
   }
+
+
   
   .dropdwn-links ul li {
     font-weight: bold;
@@ -66,32 +69,31 @@ nav {
     color: #fff;
   }
   
-
-  
   .dropdwn-links ul li ul {
+    position: absolute;
     visibility: hidden;
-    position: relative;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
     margin-top: 1rem;
     width: fit-content;
     display: none;
   }
 
-  /* test used to hover over entire children of dropdown-list */
-  #test {
-    float: none;
-  }
-  
   .dropdwn-links ul li:hover > ul,
   .dropdwn-links ul li ul:hover {
     visibility: visible;
-    opacity: 2;
+    opacity: 1;
     display: block;
-
   }
   
   .dropdwn-links ul li ul li {
     clear: both;
+  }
+
+
+  /* test used to hover over entire children of dropdown-list */
+
+  #test {
+    float: none;
   }
 
 
