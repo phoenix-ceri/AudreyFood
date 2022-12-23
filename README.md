@@ -33,7 +33,7 @@ Expand To Add More Businesses In More Cities
 
 
 ## Credits
-Eva Perez - Lead Logic And Co-Project Manager
+Eva Perez - Lead Logic, Co-Project Manager, & Home Grown API Developer
 <br /> 
 Kelley Flinn - Lead Back End Logic Engineer
 <br /> 
@@ -50,6 +50,10 @@ APIs Used
 -HTML5 Geolocation API
  <br /> 
 -Geoapify Places API
+<br />
+-Eva's Home Made API That She Made All On Her Own
+<br />
+<br />
 <br /> 
 <br /> 
  

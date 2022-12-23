@@ -1,36 +1,37 @@
-body, footer {
+body,
+footer {
     font-family: 'Shadows Into Light', cursive;
 }
 
-body{
+body {
     max-height: 100%;
     max-width: 100%;
 }
 
 header {
-  text-align: center;
-  background-color: white;
-  font-size: 2rem;
-  display: flex;
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    display: flex;
 }
 #header-title {
-  text-align: center;
-  width: 80%;
+    text-align: center;
+    width: 80%;
 }
 
 #company-title {
-  font-size: 5rem;
-  font-weight: bolder;
+    font-size: 5rem;
+    font-weight: bolder;
 }
 
 #logo {
-  height: 12rem;
-  width: 15rem;
-  border-radius: 50%;
+    height: 12rem;
+    width: 15rem;
+    border-radius: 50%;
 }
 
 img {
-  height: 10rem;
+    height: 10rem;
 }
 nav {
   background-color: skyblue;
@@ -39,12 +40,12 @@ nav {
 }
 
   .dropdown-title, a {
+    text-decoration: none;
     font-size: x-large;
     font-weight: bold;
-    width: 100%;
   }
 
-  .dropdwn-links ul {
+.dropdwn-links ul {
     background: skyblue;
     list-style: none;
   }
@@ -63,9 +64,9 @@ nav {
     padding: 1rem;
     text-decoration: none;
     transition-duration: 0.5s;
-  }
-    
-  .dropdwn-links ul li a {
+}
+
+.dropdwn-links ul li a {
     color: #fff;
   }
   
@@ -75,9 +76,13 @@ nav {
     transition: all 0.5s ease;
     width: fit-content;
     display: none;
-    margin-top: 1rem;
   }
 
+  /* test used to hover over entire children of dropdown-list */
+  #test {
+    float: none;
+  }
+  
   .dropdwn-links ul li:hover > ul,
   .dropdwn-links ul li ul:hover {
     visibility: visible;
@@ -100,51 +105,51 @@ nav {
   }
 
 
-  .geolocation {
+.geolocation {
     display: inline;
-  }
+}
 
-  .city-search {
+.city-search {
     position: relative;
     display: inline-flex;
     margin-right: 0.5rem;
-  }
+}
 
   #geolocation-btn {
-    margin: 1.4rem;
+    margin: 1.3rem;
     color: darkgreen;
-  }
-
-
-  #default-search {
-    width: 25rem;
-    margin-top: 0.5rem;
-  }
-  
-
-.main-section {
-  width: 100%;
-  display: flex;
 }
 
 
-  /* Filtered choices section */
-  .filtered-choices {
+#default-search {
+    width: 25rem;
+    margin-top: 0.5rem;
+}
+
+
+.main-section {
+    width: 100%;
+    display: flex;
+}
+
+
+/* Filtered choices section */
+.filtered-choices {
     width: 40%;
     background-color: pink;
-  }
+}
 
-  #heading {
+#heading {
     font-weight: bolder;
     font-size: 2.5rem;
-    padding: 0%;
-  }
+    padding: 0;
+}
 
-  .choices {
+.choices {
     margin-left: 6rem;
     line-height: 8rem;
     font-weight: bold;
-  }
+}
 
 
 /* Map section */
@@ -174,7 +179,6 @@ footer {
 }
 
 
-
 .dropbtn {
     background-color: #3498DB;
     color: white;
@@ -182,79 +186,79 @@ footer {
     border-radius: 1rem;
     margin-top: -0.5rem;
 
-  }
-  
-  .dropup {
+}
+
+.dropup {
     position: relative;
     display: inline;
     float: right;
-    margin-right: 1rem ;
-  }
-  
-  .dropup-content {
+    margin-right: 1rem;
+}
+
+.dropup-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     bottom: 50px;
     z-index: 1;
-  }
-  
-  .dropup-content a {
+}
+
+.dropup-content a {
     color: white;
     text-decoration: none;
     display: block;
     background-color: skyblue;
     font-size: smaller;
-  }
-  
-  .dropup-content a:hover {
+}
+
+.dropup-content a:hover {
     background-color: lightblue;
     color: black;
-  }
-  
-  .dropup:hover .dropup-content {
+}
+
+.dropup:hover .dropup-content {
     display: block;
-  }
-  
-  .dropup:hover .dropbtn {
+}
+
+.dropup:hover .dropbtn {
     background-color: #2980B9;
-  }
-
-@media screen and (max-width: 992px) {
-  .map-container{
-  width: 100%;
-  }
-
-  #geo-map {
-    width: 95rem;
-    height: 35rem;
-    padding-top: -20rem;
-  }
-} 
-
-
-@media screen and (max-width: 786px) {
-
-header {
-  background-color: #1e85c9;
-  font-family: 'Rock Salt', cursive;
 }
 
-  .map-container{
-    width: 100%;
-  } 
+@media screen and(max-width: 992px) {
+    .map-container {
+        width: 100%;
+    }
 
-  .relative {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    right: 110px;
-}
+    #geo-map {
+        width: 95rem;
+        height: 35rem;
+        padding-top: -20rem;
+    }
 }
 
-@media screen and (max-width: 600) {
-  .map-container{
-  width: 120%;
-  } 
+
+@media screen and(max-width: 786px) {
+
+    header {
+        background-color: #1e85c9;
+        font-family: 'Rock Salt', cursive;
+    }
+
+    .map-container {
+        width: 100%;
+    }
+
+    .relative {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        right: 110px;
+    }
+}
+
+@media screen and(max-width: 600) {
+    .map-container {
+        width: 120%;
+    }
 }
