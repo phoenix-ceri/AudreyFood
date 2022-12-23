@@ -1,59 +1,72 @@
 # Foodie Central
 ## Description
-Have You Ever Been In Central Florida Near Orlando And Wanted To Find Some Unique Food? <br />
-Using This Page We Can See Where You Are, Find Food Based On What You Would Like [EX: Chinese, Pizza, Coffee ETC.] <br />
+Have You Ever Been In Central Florida Near Orlando And Wanted To Find Some Unique Food?
+<br /> 
+Using This Page We Can See Where You Are, Find Food Based On What You Would Like [EX: Chinese, Pizza, Coffee ETC.] 
+<br /> 
 Giving You The Name Of Said Place And Helping You Find Locally Owned Places With Amazing Food To Enjoy!
 
 ## Installation
 This Is a Web-Based Application, So No Install Required
-<br />
+<br /> 
 The Page Is Acccesable By This link:
 <br /> 
 [Insert Link here ]
-<br />
-<br />
-<br />
+<br /> 
 [Insert Image  Here]
 
 ## Usage
 Upon Page Load The User Is Promted To Give Their Location, 
-<br />
+<br /> 
 Then The User Can Decide What Kind Of Food They Would Like, 
-<br />
-After After This Our Map Will Show What Food Matches The Specified Criteria Within Their Location Radius
+<br /> 
+After This Our Map Will Show What Food Matches The Specified Criteria Within Their Location Radius
 
-<br />
+
+## Future Features  
+User Ability To Add Restaurant Reviews
+<br /> 
+Selected Restaurant's Marker Is Highlighted On The Map
+<br /> 
+Expand To Add More Businesses In More Cities
+<br /> 
+
 
 ## Credits
 Eva Perez - Lead Logic, Co-Project Manager, & Home Grown API Developer
 <br />
+Eva Perez - Lead Logic And Co-Project Manager
+<br /> 
 Kelley Flinn - Lead Back End Logic Engineer
-<br />
+<br /> 
 Brandon Tai -Assistant Front End And Design
-<br />
+<br /> 
 Jeff Zulma- Lead Front End And Design
-<br />
+<br /> 
 Phoenix Powell- Lead Project Manager, Lead API Engineer, Logic Assistant
-<br />
-<br />
+<br /> 
+<br /> 
+
 APIs Used 
-<br />
+<br /> 
 -HTML5 Geolocation API
-    <br />
+ <br /> 
 -Geoapify Places API
 <br />
 -Eva's Home Made API That She Made All On Her Own
 <br />
 <br />
+<br /> 
+<br /> 
+ 
 Additonal Resources 
-<br />
+<br /> 
 -Google
-<br />
+<br /> 
 -StackOverflow
-<br />
+<br /> 
 -Cody (TA): A Great Resource For Knowledge And Help 
-<br />
-<br />
+<br /> 
 
 ## License
 The MIT License (MIT)

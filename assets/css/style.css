@@ -35,16 +35,15 @@ img {
 }
 nav {
   background-color: skyblue;
-  padding: 1rem;
+  padding: 0.8rem;
   display: flex;
 }
 
-.dropdown-title,
-a {
+  .dropdown-title, a {
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;
-}
+  }
 
 .dropdwn-links ul {
     background: skyblue;
@@ -54,8 +53,11 @@ a {
   .dropdwn-links .dropdown-section {
     display: flex;
   }
+
+
   
   .dropdwn-links ul li {
+    float: left;
     font-weight: bold;
     color: #fff;
     display: block;
@@ -68,32 +70,38 @@ a {
     color: #fff;
   }
   
-
-  
   .dropdwn-links ul li ul {
     visibility: hidden;
-    position: relative;
-    transition: all 0.2s ease;
-    margin-top: 1rem;
+    position: absolute;
+    transition: all 0.5s ease;
     width: fit-content;
     display: none;
-}
+  }
 
-/* test used to hover over entire children of dropdown-list */
-#test {
+  /* test used to hover over entire children of dropdown-list */
+  #test {
     float: none;
-}
-
-.dropdwn-links ul li:hover > ul,
-.dropdwn-links ul li ul:hover {
+  }
+  
+  .dropdwn-links ul li:hover > ul,
+  .dropdwn-links ul li ul:hover {
     visibility: visible;
-    opacity: 2;
+    opacity: 1;
     display: block;
-
   }
   
   .dropdwn-links ul li ul li {
     clear: both;
+  }
+  span {
+    font-size: 28px;
+  }
+
+
+  /* test used to hover over entire children of dropdown-list */
+
+  #test {
+    float: none;
   }
 
 
@@ -107,7 +115,7 @@ a {
     margin-right: 0.5rem;
 }
 
-#geolocation-btn {
+  #geolocation-btn {
     margin: 1.3rem;
     color: darkgreen;
 }
