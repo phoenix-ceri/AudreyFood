@@ -73,8 +73,9 @@ var requestOptions = {
   .then(response => response.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
-  placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&filter=rect:-81.421539,28.641699&limit=20&apiKey=YOUR_API_KEY`
+  placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=${businesstype}&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apiKey}`
 
+  var apiKey= "51c9b31a24364a49b55fcecffd8cb687"
 //as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
 
     //Function to show results location on map
