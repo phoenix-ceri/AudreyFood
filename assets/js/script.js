@@ -290,4 +290,5 @@ function suggestionButton_Click() {
   localStorage.setItem("form input", JSON.stringify(userSuggestionInput));
 }
 
+
 // Did Phoenix stay up till like 6 am after starting at noon the day prior, yes is it working HELL YES
