@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -37,144 +36,121 @@
     </header>
 
     <main>
+        
         <!-- Entire Nav section -->
-        <nav>
+        
+        <nav class="flex items-center">
 
-            <div class="geolocation">
-                <button id="geolocation-btn" class="city-search" type="button"
-                    class="inline-block px-1 py-1 px-1 bg-blue-500 text-white font-bold font-small text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out "
-                    data-bs-toggle="modal" data-bs-target="#geolocation"><i class="fa-solid fa-location-crosshairs fa-2x"></i>
-                </button>
-            </div>
-                
+            <button id="locate-btn" type="button" data-bs-toggle="modal" data-bs-target="#geolocation" class="mr-6 w-14 h-14 rounded-full bg-blue-700 hover:bg-blue-500 focus:bg-blue-500 active:bg-blue-500 shadow-md hover:shadow-lg focus:shadow-lg active:shadow-lg ring-0 hover:ring-4 focus:ring-4 active:ring-4 text-white transition duration-150 ease-in-out"> <i class="fa-solid fa-location-crosshairs fa-2x"></i> </button>
+
             <!-- Search city input and button  -->
-            <form class="city-search">   
+
+            <form>
+
                 <label for="default-search" class="text-medium font-Large text-gray-900 sr-only dark:text-white">Search</label>
+
                     <div class="relative">
-                        <div class="relative pointer-events-none">
-                        </div>
-                            <input type="search" id="default-search" class="p-4 pl-2 text-m text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search a city...." required>
+
+                        <div class="relative pointer-events-none"></div>
+
+                        <input
+                          type="search"
+                          id="default-search"
+                          class="p-4 pl-2 text-m text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          placeholder="Search a city...."
+                          required>
+
                     </div>
+
             </form>
 
             <!-- Dropdown Links -->
             <div class="dropdwn-links">
+
                 <!-- Dropdown Section -->
                 <ul class="dropdown-section">
+
                     <li><a class="dropdown-title ml-4" href="#">Business Type</a>
+
+                        <!--- Lauren: --->
+                        <!--- - Horizontal alignment can be a great way to make sets of data (e.g. <li> elements) both more compact, and easier to read! --->
+
                         <ul class="dropdown-list">
-                            <li id="test">
-                                <input  type="checkbox" value="Restaurant" id="flexCheckDefault">
-                                <label for="Restaurant">Restaurant</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Bar" id="flexCheckDefault">
-                                <label for="Bar">Bar</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Coffee Shops" id="flexCheckDefault">
-                                <label for="Coffee Shops">Coffee Shops</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Tea Shops" id="flexCheckDefault">
-                                <label for="Tea Shops">Tea Shops</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Ice Cream Shop" id="flexCheckDefault">
-                                <label for="Ice Cream Shop">Ice Cream Shop</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Bakery" id="flexCheckDefault">
-                                <label for="Bakery">Bakery</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Haitian" id="flexCheckDefault">
-                                <label for="Food Truck">Food Truck</label>
-                            </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant"     id="flexCheckDefault"> <label for="Restaurant"    > Restaurant     </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.bar,catering.pub"            id="flexCheckDefault"> <label for="Bar"           > Bar            </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.cafe.coffee"   id="flexCheckDefault"> <label for="Coffee Shops"  > Coffee Shops   </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.cafe.tea"      id="flexCheckDefault"> <label for="Tea Shops"     > Tea Shops      </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.ice_cream" id="flexCheckDefault"> <label for="Ice Cream Shop"> Ice Cream Shop </label> </li>
                         </ul>
                     </li>
+
                     <li><span class="text-white-500">/</span></li>
+
                     <li><a class="dropdown-title" href="#">Cuisine</a>
+
                         <ul class="dropdown-list">
-                            <li id="test">
-                                <input  type="checkbox" value="American" id="flexCheckDefault">
-                                <label for="American">American</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Caribbean" id="flexCheckDefault">
-                                <label for="Caribbean">Caribbean</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Asian" id="flexCheckDefault">
-                                <label for="Asian ">Asian</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Chinese" id="flexCheckDefault">
-                                <label for="Chinese">Chinese</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Japanese" id="flexCheckDefault">
-                                <label for="Japanese">Japanese</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Mexican" id="flexCheckDefault">
-                                <label for="Mexican">Mexican</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Cuban" id="flexCheckDefault">
-                                <label for="Cuban">Cuban</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Pizza" id="flexCheckDefault">
-                                <label for="Pizza">Pizza</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Latin" id="flexCheckDefault">
-                                <label for="Latin">Latin</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="German" id="flexCheckDefault">
-                                <label for="German">German</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Vegan" id="flexCheckDefault">
-                                <label for="Vegan">Vegan</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Barbecue" id="flexCheckDefault">
-                                <label for="Barbecue">Barbecue</label>
-                            </li>
-                            <li id="test">
-                                <input  type="checkbox" value="Dessert" id="flexCheckDefault">
-                                <label for="Dessert">Dessert</label>
-                            </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.american"  id="flexCheckDefault"> <label for="American" > American  </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.caribbean" id="flexCheckDefault"> <label for="Caribbean"> Caribbean </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.asian"     id="flexCheckDefault"> <label for="Asian"    > Asian     </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.chinese"   id="flexCheckDefault"> <label for="Chinese"  > Chinese   </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.japanese"  id="flexCheckDefault"> <label for="Japanese" > Japanese  </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.mexican"   id="flexCheckDefault"> <label for="Mexican"  > Mexican   </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.cuban"     id="flexCheckDefault"> <label for="Cuban"    > Cuban     </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.italian"     id="flexCheckDefault"> <label for="Pizza"    > Pizza     </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.latin_american"     id="flexCheckDefault"> <label for="Latin"    > Latin     </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.german"    id="flexCheckDefault"> <label for="German"   > German    </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="vegan"     id="flexCheckDefault"> <label for="Vegan"    > Vegan     </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.restaurant.barbecue"  id="flexCheckDefault"> <label for="Barbecue" > Barbecue  </label> </li>
+                            <li id="test"> <input class="category-checkbox" type="checkbox" value="catering.cafe.dessert"   id="flexCheckDefault"> <label for="Dessert"  > Dessert   </label> </li>
                         </ul>
+
                     </li>
+
                 </ul>
+                
             </div>
             
             <!-- Submit Button for all selected choices -->
-            <div>
-                <button id="submit-btn" type="submit" class="mt-2 ml-9 text-white font-medium bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
-            </div>
 
-                        
+            <button id="search-btn" type="submit" class="w-28 h-14 rounded-full bg-blue-700 hover:bg-blue-500 focus:bg-blue-500 active:bg-blue-500 shadow-md hover:shadow-lg focus:shadow-lg active:shadow-lg ring-0 hover:ring-4 focus:ring-4 active:ring-4 text-white transition duration-150 ease-in-out"> Search </button>
+                       
             <!-- Modal & Form -->
             <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                 id="geolocation" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="geolocationLabel" aria-hidden="true">
                 
                 <div class="modal-dialog relative w-auto pointer-events-none">
+
                     <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+
                         <div class="modal-body relative p-4">
+
                             <div class="p-6 text-center">
+
                                 <form id="form">
+
                                     <svg aria-hidden="true" class="mx-auto mb-4 text-gray-400 w-14 h-14 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+
                                     <h3 class="mb-5 text-lg font-large font-bold text-gray-500 dark:text-gray-400">Would you like to share your current location?</h3>
-                                    <button id= "locateme" data-bs-dismiss="modal" data-modal-toggle="popup-modal" type="button" class=" text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+
+                                    <button
+                                      id="share-btn"
+                                      type="button"
+                                      data-bs-dismiss="modal"
+                                      data-modal-toggle="popup-modal"
+                                      class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
                                     Yes, I'm sure
                                     </button>
-                                    <button data-modal-toggle="popup-modal" type="button" class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2" data-bs-dismiss="modal">No, cancel</button>
+
+                                    <button
+                                      id="dismiss-btn"
+                                      type="button"
+                                      data-modal-toggle="popup-modal"
+                                      data-bs-dismiss="modal"
+                                      class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
+                                    No, cancel
+                                    </button>
+
                                 </form>
                             </div>
                         </div>
@@ -192,7 +168,7 @@
 
             <div class=" filtered-choices">
                 <a id="heading" href="#filtered-choices">Filtered Choices</a>
-                <ul class="choices">
+                <ul id="choices-list" class="choices">
                 </ul>
             </div>
         </div>
