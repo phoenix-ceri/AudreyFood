@@ -87,10 +87,10 @@ console.log("Latitude: " + position.coords.latitude +
   function createLink() {
     link = `https://maps.geoapify.com/v1/staticmap?apiKey=${apiKey}&style=osm-liberty&marker=lonlat:${lonLat};type:awesome;color:%2317f4f9;icon:${iconVar}`;
 
-    array.foreach(link += "marker=lonlat:" + array.lonlat + ";type:awesome;color:%2317f4f9;icon:" + iconVar)
+    array.foreach(link += "marker=lonlat:" + array.lonLat + ";type:awesome;color:%2317f4f9;icon:" + iconVar)
     //for loop probably
   }
-  placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=catering&filter=rect:11.573106549898483,48.13898913611139,11.57704581350751,48.13666585409989&limit=20&apiKey=51c9b31a24364a49b55fcecffd8cb687`;
+  placesURLEndpoint= `https://api.geoapify.com/v2/places?categories=catering&conditions=vegan&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apiKey}`;
 // https://api.geoapify.com/v2/places?categories=catering&conditions=vegan&filter=rect:-81.421539,28.641699&limit=20&apiKey=${apiKey}
   fetch(placesURLEndpoint, requestOptions)
   .then(response => response.json())
@@ -111,22 +111,18 @@ function renderMapQueryResults(resultObj){
     }
     console.log(restLonLatArray + "this is the long lat array")
     return data2;
-  // var maybethiswillwork = data();
-  // console.log(maybethiswillwork + "hopes and dreams")
-  // var queryRestruarantsLonLat = ""
-  // var queryRestruarantsLonLat += data.restaurants.lon + ',' + data.restaurants.lat
-  // console.log (data() + "this is text")
+
+  console.log (data() + "this is text")
+
+  document.getElementById('map-container').innerHTML = mapString+= `<img id="map" width="571" height="473" 
+    src="https://maps.geoapify.com/v1/staticmap?style=osm-liberty&width=571&height=473&center=lonlat:-81.421539,28.641699&zoom=9.5577&marker=lonlat:${restLonLatArray};color:%23ff0000;size:medium&apiKey=${apiKey}"
+    alt="${features[i].properties.name}">`
   }
   data()
   mapString=""
 
-  document.getElementById('map-container').innerHTML = mapString+= `<img id="map" width="571" height="473" 
-    src="https://maps.geoapify.com/v1/staticmap?style=osm-liberty&width=571&height=473&center=lonlat:-81.421539,28.641699&zoom=9.5577&marker=lonlat:${queryRestruarantsLonLat};color:%23ff0000;size:medium&apiKey=${apiKey}"
-    alt="${features[i].properties.name}">`
+
 }
-
-//as a last resort, add all restaurants, coffee shops, bars to their respective links...:(
-
     //Function to show results location on map
   //fetch(staticMapUrl)
     // fetch(link)
@@ -151,3 +147,9 @@ suggestionButton.addEventListener("click", function(){
   localStorage.setItem("form input", JSON.stringify(userSuggestionInput));
 });
 
+$( function() {
+  var cityAutofillArray=['Clearwater','Ocala','Casselberry','Lake Mary','Clermont','Deltona','Kissimmee','Mount Dora','Palm Bay','Melbourne','Winter Springs','Winter Haven','Palm Coast','Longwood','Ormond Beach','DeLand','Naples','Auburndale','Port Orange','Haines City','Palm Beach Gardens','Lake Wales','Largo','Brooksville','Lake Alfred','Fort Meade'];
+  $( "#tags" ).autocomplete({
+  source: availableTags
+  });
+  } );
