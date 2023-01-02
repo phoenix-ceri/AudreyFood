@@ -1,4 +1,4 @@
-// Team Motto: We Have Fun But We Still Get Shit Done
+// Team Motto: We Have Fun But We Still Get Stuff Done
 
 // --------------------------------------------------------------------------------------------------------------------------------
 // Consts
@@ -43,7 +43,7 @@ const USER_MARKER = "type:awesome;color:%2317f4f9;size:medium;icon:hippo";
 
 var longitude = DEFAULT_LONGITUDE;
 var latitude = DEFAULT_LATITUDE;
-var shitList = [];
+var blackList = [];
 
 var locateButton = document.getElementById("locate-btn");
 var searchInput = document.getElementById("default-search");
@@ -69,7 +69,7 @@ $("#date").text(CURRENT_DATE);
 
 // Initial events
 
-loadShitList();
+loadBlackList();
 
 renderMap();
 
@@ -77,14 +77,14 @@ renderMap();
 // Loads the list of non-local features to filter out of the results
 // --------------------------------------------------------------------------------------------------------------------------------
 
-async function loadShitList() {
-  console.log("Fired: loadShitList()");
+async function loadBlackList() {
+  console.log("Fired: loadBlackList()");
 
-  shitList = await (
-    await fetch("./assets/JSON/shitlist.json", JSON_REQUEST_OPTIONS)
+  blackList = await (
+    await fetch("./assets/JSON/blacklist.json", JSON_REQUEST_OPTIONS)
   ).json();
 
-  console.log(shitList);
+  console.log(blackList);
 }
 
 // --------------------------------------------------------------------------------------------------------------------------------
@@ -97,7 +97,7 @@ function renderPlaces(places) {
   let goodList = [];
 
   places.features.forEach((feature, index) => {
-    if (shitList.includes(feature.properties.name.trim()) === false) {
+    if (blackList.includes(feature.properties.name.trim()) === false) {
       goodList.push(feature);
     }
   });
