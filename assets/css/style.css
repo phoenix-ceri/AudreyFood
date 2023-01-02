@@ -13,6 +13,7 @@ header {
     background-color: white;
     font-size: 2rem;
     display: flex;
+    padding-bottom: 1rem;
 }
 #header-title {
     text-align: center;
@@ -123,6 +124,8 @@ nav {
 .main-section {
     width: 100%;
     display: flex;
+    height: auto;
+    background-color: pink;
 }
 
 
@@ -130,14 +133,28 @@ nav {
 .filtered-choices {
     width: 40%;
     background-color: pink;
+    text-align: center;
+    border-left: 1rem dashed white;
 }
 
 #heading {
     font-weight: bolder;
-    font-size: 2.5rem;
-    padding: 0;
+    font-variant-caps:all-petite-caps;
+    font-size: 4rem;
+    padding: auto;
 }
-
+h3 {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    text-align: left;
+}
+p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    text-align: left;
+    flex-wrap: wrap;
+}
 .choices {
     margin-left: 6rem;
     font-weight: bold;
