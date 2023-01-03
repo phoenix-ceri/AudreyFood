@@ -1,6 +1,6 @@
 # Foodie Central
 ## Description
-Have You Ever Been In Central Florida Near Orlando And Wanted To Find Some Unique Food?
+Have You Ever Been Traveling And Wanted To Find Some Unique Food?
 <br /> 
 Using This Page We Can See Where You Are, Find Food Based On What You Would Like [EX: Chinese, Pizza, Coffee ETC.] 
 <br /> 
@@ -42,6 +42,10 @@ Ability to Interact With Map
 Usage of A Specific Restaurant API in Conjunction with our Blacklist
 <br />
 Sticky Footer
+<br />
+Integration of API Customization Local to Central Florida Region
+<br />
+Mobile App Responsive Layout
 
 
 ## Credits
@@ -59,12 +63,13 @@ Phoenix Powell- Co-Lead Project Manager, Logic Engineer Assistant, Lead API Arch
 
 APIs Used 
 <br /> 
--HTML5 Geolocation API
+-HTML5 Reverse Geolocation API
  <br /> 
 -Geoapify Places API
 <br />
--Local Restaurant API (will be used in further future development)
+-Blacklist API
 <br />
+-Local Restaurant API (will be used in further future development)
 <br />
 <br /> 
 <br /> 

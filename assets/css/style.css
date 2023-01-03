@@ -126,6 +126,8 @@ nav {
     display: flex;
     height: auto;
     background-color: pink;
+    border-top: white dashed 1rem;
+    border-bottom: white dashed 1rem;
 }
 
 
