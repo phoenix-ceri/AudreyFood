@@ -5,6 +5,12 @@ Have You Ever Been Traveling And Wanted To Find Some Unique Food?
 Using This Page We Can See Where You Are, Find Food Based On What You Would Like [EX: Chinese, Pizza, Coffee ETC.] 
 <br /> 
 Giving You The Name Of Said Place And Helping You Find Locally Owned Places With Amazing Food To Enjoy!
+## User Story
+AS A foodie who loves to travel
+I am excited to visit culturally diverse restaurants in new places
+I WANT to discover well rated, locally owned restaurants in the cities I explore
+AND view the location of the selected restaurant on a map
+SO that I can experience the best these locations have to offer outside of a corporate chain
 
 ## Installation
 This is a Web-Based Application, Thus No Install is Required
@@ -15,12 +21,26 @@ The Page Is Acccesable By This link:
 (https://phoenix-ceri.github.io/FoodieCentral/)
 <br /> 
 
-## Usage
-The User Is Able to Click a Symbol To Give Their Location or Even Choose Their City of Interest, 
+## Acceptance Criteria
+When the Page is Loaded,
+<br />
+Then I am Able to Click a Symbol To Give My Location or Choose a City of Interest, 
+<br />
+When I Click the Symbol to Give My Location, 
+<br />
+Then a Modal Pops Open Asking for Permission to Get User Location
+<br />
+When I Choose A City of Interest or Accept My Location
+<br />
+Then It Takes Me to The City On the Map
+<br />
+When I Open The Filters to Get Results
+<br />
+Then I Can Decide What Type of Establishment and What Kind Of Food I Would Like, 
 <br /> 
-Then The User Can Decide What Type of Establishment and What Kind Of Food They Would Like, 
-<br /> 
-After This Our Map Will Show What Food Matches The Specified Criteria Within Their Location Radius
+When I Click Submit on the Filters
+<br />
+Then The Map Will Show What Food Matches The Specified Criteria Within My Location or City of Interest Radius
 
 ## Screenshots
 ![Foodie Central Logo](./assets/screenshots/FoodieCentralLogo.gif)
@@ -83,6 +103,8 @@ Additonal Resources
 <br /> 
 -Lauren Mastin - Advised on Java Script
 
+## Hurdles & Learning Points
+Our custom list of Restaurants was not usable during this iteration because it was returning as an object rather than the parsed JSON information. Because we were not able to use our custom list, we did not impliment the 4th API to create a Central Florida Border on the map. This was actually something that turned out better because we were able to make this national and not only tailored to Central FL but also able to expland in future iterations
 ## License
 The MIT License (MIT)
 
