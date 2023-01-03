@@ -14,7 +14,6 @@ The Page Is Acccesable By This link:
 ![WebDeployment Link](https://phoenix-ceri.github.io/FoodieCentral/)
 (https://phoenix-ceri.github.io/FoodieCentral/)
 <br /> 
-[Insert Image  Here]
 
 ## Usage
 The User Is Able to Click a Symbol To Give Their Location or Even Choose Their City of Interest, 
